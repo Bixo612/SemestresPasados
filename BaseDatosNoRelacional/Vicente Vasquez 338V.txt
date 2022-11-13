@@ -1,0 +1,489 @@
+19360397-1
+
+1.- Indique cuantas personas de sexo masculino ganan más de $850.000
+
+db.personas.find(
+    {$and:[
+        {sueldo:{$gt:850000}},
+        {sexo:"Masculino"}
+    ]}
+).count()
+
+2.- Indique cuantas personas de sexo masculino viven en la comuna de
+Santiago.
+
+db.personas.find(
+    {$and:[
+        {comuna:"Santiago"},
+        {sexo:"Masculino"}
+    ]}
+).count()
+
+3.- Muestre todas las personas que sean Solteros o Solteras y que tengan
+cargas familiares.
+
+db.personas.find(
+    {$and:[
+        {cargasFamiliares: {$gt:0}},
+        {$or:[
+            {estadoCivil:"Soltero"},
+            {estadoCivil:"Soltera"}
+        ]}
+    ]}
+)
+
+4.- Actualice la información de todas las personas que sean Casada o Casado,
+si la persona no posee cargas familiares debe quedar con 1 carga familiar.
+
+db.personas.updateMany(
+    {$and:[
+        {cargasFamiliares: 0},
+        {$or:[
+            {estadoCivil:"Casado"},
+            {estadoCivil:"Casada"}
+        ]}
+    ]},
+    {$set:{cargasFamiliares: 1}}
+)
+
+5.- Elimine los documentos de todas las personas que sean de sexo masculino,
+solteros, que no tenga cargas familiares y que ganen menos de $420.000
+
+db.personas.deleteMany(
+    {$and:[
+        {sexo:"Masculino"},
+        {estadoCivil:"Soltero"},
+        {cargasFamiliares: 0},
+        {sueldo:{$lt:420000}}
+    ]}
+)
+
+6.- Ingrese 3 documentos de personas que vivan en Valdivia.
+
+db.personas.insertMany(
+[
+    {
+        "rut":"15.123.123-7",
+        "nombre":"Juan Alberto Soto Diaz",
+        "direccion":"Diagonal Oriente 1887",
+        "fechaNacimiento": new Date("1970-06-13"),
+        "comuna":"Valdivia",
+        "correoElectronico":"jasotodiaz@xmail.com",
+        "estadoCivil": "Casado",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 500000
+    },
+    {
+        "rut":"15.789.789-7",
+        "nombre":"Pedro Antonio Soto Diaz",
+        "direccion":"Diagonal Oriente 1887",
+        "fechaNacimiento": new Date("1970-06-13"),
+        "comuna":"Valdivia",
+        "correoElectronico":"pasotodiaz@xmail.com",
+        "estadoCivil": "Casado",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 500000
+    },
+    {
+        "rut":"15.456.456-7",
+        "nombre":"Sergio Nicolas Soto Diaz",
+        "direccion":"Diagonal Oriente 1887",
+        "fechaNacimiento": new Date("1970-06-13"),
+        "comuna":"Valdivia",
+        "correoElectronico":"snsotodiaz@xmail.com",
+        "estadoCivil": "Casado",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 500000
+    }
+])
+
+7.- Muestre los documentos de las personas de sexo masculino ordenados por
+su sueldo de forma descendente.
+
+db.personas.find(
+    {sexo:"Masculino"}
+).sort({sueldo:-1})
+
+8.- Utilizando where muestre las personas que tengan sexo masculino, que
+sean solteros, que vivan en Ñuñoa, La Reina, Santiago o Macul y que su sueldo
+sea menor a $500.000
+
+db.personas.find(
+    {$and:[
+        {sexo:"Masculino"},
+        {sueldo:{$lt:500000}},
+        {estadoCivil:"Soltero"},
+        {$or:[
+            {comuna: "Ñuñoa"},
+            {comuna: "Santiago"},
+            {comuna: "Macul"},
+            {comuna: "La Reina"},
+        ]}
+    ]}
+)
+
+9.- Muestre todas las personas cuyo correo electrónico sea xmail y que tengan
+sexo masculino.
+
+db.personas.find(
+    {$and:[
+        {correoElectronico:{$regex:/xmail/}},
+        {sexo:"Masculino"}
+    ]}
+)
+
+10.- Muestre la información de todas las personas que hubieran nacido
+después del 31-12-1990 que sean de sexo masculino y que tengan más de 1
+carga familiar.
+
+db.personas.find(
+    {$and:[       
+        {cargasFamiliares: {$gt:1}},
+        {sexo:"Masculino"},
+        {fechaNacimiento: {$gt:new Date("1990-12-31")}}
+    ]}
+)
+
+
+------------------------------------
+[
+    {
+        "rut":"14.048.959-2",
+        "nombre":"Juan Igancio Perez Balboa",
+        "direccion":"Simon Bolivar 6544",
+        "fechaNacimiento": new Date("1980-09-12"),
+        "comuna":"Ñuñoa",
+        "correoElectronico":"jperez@xmail.com",
+        "estadoCivil": "Casado",
+        "cargasFamiliares" : 2,
+        "sexo":"Masculino",
+        "sueldo": 450000
+    },
+    {
+        "rut":"12.937.506-7",
+        "nombre":"Diego Marcelo Herrera Quinan",
+        "direccion":"Maria Dolores 1887",
+        "fechaNacimiento": new Date("1970-06-13"),
+        "comuna":"Nacimiento",
+        "correoElectronico":"dherrera@xmail.com",
+        "estadoCivil": "Casado",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 480000
+    },
+    {
+        "rut":"17.018.376-1",
+        "nombre":"Marcela Daniela Pinzon Gonzalez",
+        "direccion":"Bernardo Ohiggins 788",
+        "fechaNacimiento": new Date("1990-01-01"),
+        "comuna":"Frutillar",
+        "correoElectronico":"mpinzon@xmail.com",
+        "estadoCivil": "Soltera",
+        "cargasFamiliares" : 1,
+        "sexo":"Femenino",
+        "sueldo": 540000
+    },
+    {
+        "rut":"15.028.900-1",
+        "nombre":"Francisco Javier Gomez Carreño",
+        "direccion":"Irarrazaval 5677",
+        "fechaNacimiento": new Date("1983-04-21"),
+        "comuna":"Ñuñoa",
+        "correoElectronico":"fgomez@xmail.com",
+        "estadoCivil": "Soltero",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 400000
+    },
+    {
+        "rut":"16.772.456-9",
+        "nombre":"Camila Andrea Flores Cueto",
+        "direccion":"Colombia 4566",
+        "fechaNacimiento": new Date("1986-01-30"),
+        "comuna":"La Florida",
+        "correoElectronico":"cflores@xmail.com",
+        "estadoCivil": "Casada",
+        "cargasFamiliares" : 0,
+        "sexo":"Femenino",
+        "sueldo": 450000
+    },
+    {
+        "rut":"12.189.599-5",
+        "nombre":"Andres Daniel Sanchez Quezada",
+        "direccion":"Camilo Henriquez 2833",
+        "fechaNacimiento": new Date("1970-01-01"),
+        "comuna":"Puente Alto",
+        "correoElectronico":"asanchez@xmail.com",
+        "estadoCivil": "Soltero",
+        "cargasFamiliares" : 2,
+        "sexo":"Masculino",
+        "sueldo": 500000
+    },
+    {
+        "rut":"19.045.591-0",
+        "nombre":"Marco Ivan Miranda Guerra",
+        "direccion":"Rojas Magallanes 4501",
+        "fechaNacimiento": new Date("2002-05-04"),
+        "comuna":"La Florida",
+        "correoElectronico":"mmiranda@xmail.com",
+        "estadoCivil": "Casado",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 420000
+    },
+    {
+        "rut":"14.056.122-1",
+        "nombre":"Jaime Alberto Jara Rincon",
+        "direccion":"Larrain 6778",
+        "fechaNacimiento": new Date("1981-11-25"),
+        "comuna":"La Reina",
+        "correoElectronico":"jjara@ymail.com",
+        "estadoCivil": "Soltero",
+        "cargasFamiliares" : 2,
+        "sexo":"Masculino",
+        "sueldo": 450000
+    },
+    {
+        "rut":"21.432.948-4",
+        "nombre":"Jimena Maura Correa Pizarro",
+        "direccion":"Alcantara 4857",
+        "fechaNacimiento": new Date("2002-05-01"),
+        "comuna":"Las Condes",
+        "correoElectronico":"jcorrea@xmail.com",
+        "estadoCivil": "Casada",
+        "cargasFamiliares" : 1,
+        "sexo":"Femenino",
+        "sueldo": 450000
+    },
+    {
+        "rut":"16.888.465-4",
+        "nombre":"Carmen Andrea Jimenez Urrutia",
+        "direccion":"Laura Rodriguez 278",
+        "fechaNacimiento": new Date("1986-09-14"),
+        "comuna":"La Reina",
+        "correoElectronico":"cjimenez@xmail.com",
+        "estadoCivil": "Soltera",
+        "cargasFamiliares" : 0,
+        "sexo":"Femenino",
+        "sueldo": 420000
+    },
+    {
+        "rut":"23.453.677-2",
+        "nombre":"Rodrigo Jorge Treuquemil Inostroza",
+        "direccion":"Vicuña Mackena 5786 dep 102",
+        "fechaNacimiento": new Date("2003-06-27"),
+        "comuna":"Macul",
+        "correoElectronico":"rtreuquemil@xmail.com",
+        "estadoCivil": "Casado",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 450000
+    },
+    {
+        "rut":"18.453.677-2",
+        "nombre":"Elizabeth Margarita Vicuña Zuñiga",
+        "direccion":"Antonio Varas 890",
+        "fechaNacimiento": new Date("1990-05-20"),
+        "comuna":"Puerto Varas",
+        "correoElectronico":"evicunna@zmail.com",
+        "estadoCivil": "Casada",
+        "cargasFamiliares" : 3,
+        "sexo":"Femenino",
+        "sueldo": 480000
+    },
+    {
+        "rut":"17.453.687-1",
+        "nombre":"Maximiliano Alberto Gonzalez Peñaloza",
+        "direccion":"Antonio Varas 450",
+        "fechaNacimiento": new Date("1989-06-10"),
+        "comuna":"Providencia",
+        "correoElectronico":"mgonzalez@zmail.com",
+        "estadoCivil": "Soltero",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 400000
+    },
+    {
+        "rut":"21.453.323-2",
+        "nombre":"Rodrigo Ignacio Decar Inostroza",
+        "direccion":"Victoria 987",
+        "fechaNacimiento": new Date("1994-07-25"),
+        "comuna":"Santiago",
+        "correoElectronico":"rdecar@zmail.com",
+        "estadoCivil": "Casado",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 1400000
+    },
+    {
+        "rut":"22.522.356-3",
+        "nombre":"Maria Patricia Araya Escobar",
+        "direccion":"Jose Arrieta 7855",
+        "fechaNacimiento": new Date("1998-05-06"),
+        "comuna":"Peñalolen",
+        "correoElectronico":"m.araya@zmail.com",
+        "estadoCivil": "Casada",
+        "cargasFamiliares" : 1,
+        "sexo":"Masculino",
+        "sueldo": 1600000
+    },
+    {
+        "rut":"21.253.444-4",
+        "nombre":"Rodrigo Jorge Espina Novoa",
+        "direccion":"Vicuña Mackena 786 dep 108",
+        "fechaNacimiento": new Date("1998-05-07"),
+        "comuna":"Santiago",
+        "correoElectronico":"respina@zmail.com",
+        "estadoCivil": "Soltero",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 480000
+    },
+    {
+        "rut":"20.345.853-5",
+        "nombre":"Alvaro Eduardo Vivanco Morales",
+        "direccion":"Escuela Agricola 2587",
+        "fechaNacimiento": new Date("2003-04-28"),
+        "comuna":"Macul",
+        "correoElectronico":"avivanco@zmail.com",
+        "estadoCivil": "Soltero",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 1200000
+    },
+    {
+        "rut":"25.734.099-6",
+        "nombre":"Evelyn Daniela Miranda Jimenez",
+        "direccion":"Santa Lucia 2854",
+        "fechaNacimiento": new Date("2005-01-05"),
+        "comuna":"Puente Alto",
+        "correoElectronico":"emiranda@zmail.com",
+        "estadoCivil": "Soltera",
+        "cargasFamiliares" : 0,
+        "sexo":"Femenino",
+        "sueldo": 1250000
+    },
+    {
+        "rut":"22.256.566-7",
+        "nombre":"David Marcelo Zuñiga Contador",
+        "direccion":"Ossandon 287",
+        "fechaNacimiento": new Date("2002-08-01"),
+        "comuna":"La Reina",
+        "correoElectronico":"dzuñiga@zmail.com",
+        "estadoCivil": "Soltero",
+        "cargasFamiliares" : 1,
+        "sexo":"Masculino",
+        "sueldo": 420000
+    },
+    {
+        "rut":"18.255.122-8",
+        "nombre":"Fernanda Ignacia Torres Rojo",
+        "direccion":"Benito Rebolledo 1878",
+        "fechaNacimiento": new Date("1991-05-17"),
+        "comuna":"Macul",
+        "correoElectronico":"ftorres@zmail.com",
+        "estadoCivil": "Casada",
+        "cargasFamiliares" : 0,
+        "sexo":"Femenino",
+        "sueldo": 1400000
+    },
+    {
+        "rut":"25.625.463-9",
+        "nombre":"Gladys Jael Catalan Miro",
+        "direccion":"Sergio Ceppi 1128",
+        "fechaNacimiento": new Date("2003-10-25"),
+        "comuna":"Lo Ovalle",
+        "correoElectronico":"gcatalan@zmail.com",
+        "estadoCivil": "Casada",
+        "cargasFamiliares" : 0,
+        "sexo":"Femenino",
+        "sueldo": 840000
+    },
+    {
+        "rut":"21.453.678-0",
+        "nombre":"Claudia Teresa Reyes Aravena",
+        "direccion":"San Lorenzo 1280",
+        "fechaNacimiento": new Date("1995-12-20"),
+        "comuna":"Maipu",
+        "correoElectronico":"creyes@zmail.com",
+        "estadoCivil": "Soltera",
+        "cargasFamiliares" : 0,
+        "sexo":"Femenino",
+        "sueldo": 760000
+    },
+    {
+        "rut":"22.324.664-K",
+        "nombre":"Jorge Rodrigo Inostroza Martinez",
+        "direccion":"Victor Manuel 1672",
+        "fechaNacimiento": new Date("2003-10-25"),
+        "comuna":"Santiago",
+        "correoElectronico":"jinostroza@zmail.com",
+        "estadoCivil": "Soltero",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 1350000
+    },
+    {
+        "rut":"23.453.647-1",
+        "nombre":"Mireya Fernanda Izurrieta Marin",
+        "direccion":"Llewellyn Jones 1458",
+        "fechaNacimiento": new Date("2004-06-17"),
+        "comuna":"Providencia",
+        "correoElectronico":"mizurrieta@zmail.com",
+        "estadoCivil": "Casada",
+        "cargasFamiliares" : 0,
+        "sexo":"Femenino",
+        "sueldo": 1380000
+    },
+    {
+        "rut":"23.453.607-2",
+        "nombre":"Maria Jose Barra Agurto",
+        "direccion":"Alfredo Santa Maria 2709",
+        "fechaNacimiento": new Date("2004-04-29"),
+        "comuna":"Providencia",
+        "correoElectronico":"mbarra@zmail.com",
+        "estadoCivil": "Soltera",
+        "cargasFamiliares" : 0,
+        "sexo":"Femenino",
+        "sueldo": 640000
+    },
+    {
+        "rut":"18.453.677-3",
+        "nombre":"Christian Jorge López Cuadra",
+        "direccion":"Vicuña Mackena 5786 dep 104",
+        "fechaNacimiento": new Date("1992-10-25"),
+        "comuna":"Macul",
+        "correoElectronico":"clopez@zmail.com",
+        "estadoCivil": "Casado",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 480000
+    },
+    {
+        "rut":"17.453.644-4",
+        "nombre":"Roberto Alejandro Briones Lama",
+        "direccion":"Vicuña Mackena 578",
+        "fechaNacimiento": new Date("1989-09-13"),
+        "comuna":"Frutillar",
+        "correoElectronico":"rbriones@zmail.com",
+        "estadoCivil": "Soltero",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 400000
+    },
+    {
+        "rut":"20.453.280-5",
+        "nombre":"Héctor Andrés Bravo Garrido",
+        "direccion":"Vivaceta 1940",
+        "fechaNacimiento": new Date("1999-01-18"),
+        "comuna":"Independencia",
+        "correoElectronico":"hbravo@zmail.com",
+        "estadoCivil": "Soltero",
+        "cargasFamiliares" : 0,
+        "sexo":"Masculino",
+        "sueldo": 980000
+    }
+]

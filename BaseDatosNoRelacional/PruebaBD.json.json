@@ -1,0 +1,332 @@
+[
+    {
+        "id_municipalidad": 1,
+        "comuna": "Puente Alto",
+        "juzgados": [
+            {
+                "id_juzgado": 101,
+                "nombre_juzgado": "Primer juzgado de Puente Alto",
+                "multas": [
+                    {
+                        "nro_multa": 1001,
+                        "direccion": "Petra # 3080",
+                        "fecha": new Date("5-12-2020"),
+                        "infracion": "Conducir a exceso de velocidad",
+                        "vehiculo": {
+                            "patente": "ZFRH20",
+                            "marca": "Peugeot",
+                            "modelo": "Partner"
+                        },
+                        "insepctor": {
+                            "id_inspector": 6,
+                            "fecha_ingreso": new Date("12-06-1996"),
+                            "funcionario_municipal": {
+                                "rut": "13520639-5",
+                                "nombre": "Camila Antonio Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "cavz@gamil.com",
+                                "fecha_nacimiento": "15-03-1987",
+                                "telefono": 902048560
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1002,
+                        "direccion": "Joaquín Prieto # 5761",
+                        "fecha": new Date("13-2-2020"),
+                        "infracion": "No respetar signos o señales de transito",
+                        "vehiculo": {
+                            "patente": "LCCF49",
+                            "marca": "Volkswagen",
+                            "modelo": "Tiguan"
+                        },
+                        "insepctor": {
+                            "id_inspector": 7,
+                            "fecha_ingreso": new Date("12-06-1996"),
+                            "funcionario_municipal": {
+                                "rut": "13753869-6",
+                                "nombre": "Fernanda Sofia Oney Mendez",
+                                "sexo": "Femenino",
+                                "correo": "fsom@gamil.com",
+                                "fecha_nacimiento": "12-03-1988",
+                                "telefono": 951963050
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 102,
+                "nombre_juzgado": "Segundo juzgado de Puente Alto",
+                "multas": [
+                    {
+                        "nro_multa": 1003,
+                        "direccion": "Bernardo O'Higgins # 3149",
+                        "fecha": new Date("31-5-2021"),
+                        "infracion": "Conducir vehiculo sin certificado de seguro obligatorio vigente",
+                        "vehiculo": {
+                            "patente": "XIHJ03",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": new Date("12-06-1996"),
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1004,
+                        "direccion": "Av Transversal # 6945",
+                        "fecha": new Date("28-6-2020"),
+                        "infracion": "Infringir normas sobre viraje",
+                        "vehiculo": {
+                            "patente": "RGFW16",
+                            "marca": "Chevrolet",
+                            "modelo": "Spin"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": new Date("12-06-1996"),
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 2,
+        "comuna": "Pudahuel",
+        "juzgados": [
+            {
+                "id_juzgado": 103,
+                "nombre_juzgado": "Primer juzgado de Pudahuel",
+                "multas": [
+                    {
+                        "nro_multa": 1005,
+                        "direccion": "Frangel # 5628",
+                        "fecha": new Date("4-6-2022"),
+                        "infracion": "No respetar signos o señales de transito",
+                        "vehiculo": {
+                            "patente": "ZAGL85",
+                            "marca": "Hyundai",
+                            "modelo": "Tucson"
+                        },
+                        "insepctor": {
+                            "id_inspector": 6,
+                            "fecha_ingreso": new Date("12-06-1996"),
+                            "funcionario_municipal": {
+                                "rut": "13520639-5",
+                                "nombre": "Camila Antonio Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "cavz@gamil.com",
+                                "fecha_nacimiento": "15-03-1987",
+                                "telefono": 902048560
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1006,
+                        "direccion": "Pablo Neruda # 4649",
+                        "fecha": new Date("18-4-2022"),
+                        "infracion": "No hacer las señales debidas antes de virarConducir vehiculo en contra el sentido del transito",
+                        "vehiculo": {
+                            "patente": "BALO99",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 7,
+                            "fecha_ingreso": new Date("12-06-1996"),
+                            "funcionario_municipal": {
+                                "rut": "13753869-6",
+                                "nombre": "Fernanda Sofia Oney Mendez",
+                                "sexo": "Femenino",
+                                "correo": "fsom@gamil.com",
+                                "fecha_nacimiento": "12-03-1988",
+                                "telefono": 951963050
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 104,
+                "nombre_juzgado": "Segundo juzgado de Pudahuel",
+                "multas": [
+                    {
+                        "nro_multa": 1007,
+                        "direccion": "Manuel Bulnes # 1863",
+                        "fecha": new Date("15-6-2022"),
+                        "infracion": "Conducir a exceso de velocidad",
+                        "vehiculo": {
+                            "patente": "CBZZ57",
+                            "marca": "Jeep",
+                            "modelo": "Grand Cherokee"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": new Date("12-06-1996"),
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1008,
+                        "direccion": "Pelu # 4325",
+                        "fecha": new Date("1-7-2020"),
+                        "infracion": "No respetar señal pare",
+                        "vehiculo": {
+                            "patente": "CHNS39",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": new Date("12-06-1996"),
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 3,
+        "comuna": "La Reina",
+        "juzgados": [
+            {
+                "id_juzgado": 105,
+                "nombre_juzgado": "Primer juzgado de La Reina",
+                "multas": [
+                    {
+                        "nro_multa": 1009,
+                        "direccion": "Manuel Bulnes # 9746",
+                        "fecha": new Date("16-10-2021)",
+                        "infracion": "Conducir vehiculo sin certificado de seguro obligatorio vigente",
+                        "vehiculo": {
+                            "patente": "AFQJ78",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 6,
+                            "fecha_ingreso": new Date("12-06-1996"),
+                            "funcionario_municipal": {
+                                "rut": "13520639-5",
+                                "nombre": "Camila Antonio Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "cavz@gamil.com",
+                                "fecha_nacimiento": "15-03-1987",
+                                "telefono": 902048560
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1010,
+                        "direccion": "Frangel # 2550",
+                        "fecha": new Date("7-10-2022"),
+                        "infracion": "Conducir vehiculo sin placa patente",
+                        "vehiculo": {
+                            "patente": "BHIF65",
+                            "marca": "Suzuki",
+                            "modelo": "S-Presso"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": new Date("12-06-1996"),
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 106,
+                "nombre_juzgado": "Segundo juzgado de La Reina",
+                "multas": [
+                    {
+                        "nro_multa": 1011,
+                        "direccion": "Jose Miguel Carrera # 1714",
+                        "fecha": new Date("24-6-2022"),
+                        "infracion": "Conducir vehiculo sin placa patente",
+                        "vehiculo": {
+                            "patente": "DSBP14",
+                            "marca": "Chevrolet",
+                            "modelo": "Spin"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": new Date("12-06-1996"),
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1012,
+                        "direccion": "Boldo # 5421",
+                        "fecha": new Date("2-9-2022"),
+                        "infracion": "Infringir normas sobre viraje",
+                        "vehiculo": {
+                            "patente": "WPTB99",
+                            "marca": "Volkswagen",
+                            "modelo": "Tiguan"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": new Date("12-06-1996"),
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

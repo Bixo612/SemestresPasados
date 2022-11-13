@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function validar()
+        {
+            var nombre = document.formulario.txt_nombre.value;
+            var edad = document.formulario.txt_edad.value;
+            var  correo = document.formulario.txt_correo.value;
+            if(correo.indexOf('@')<0 || correo.indexOf('.')<0)
+            {
+                alert("debe ingresar un correo con @ y punto");
+                document.formulario.txt_correo.focus();
+                return false;
+            }
+            if(nombre.length<3)
+            {
+                alert("Nombre tiene pocos caracteres");
+                document.formulario.txt.nombre.focus();
+                return false;
+            }
+            if (parseInt(edad)<18 || parseInt(edad)>65)
+                {
+                    alert("edad debe ser entre 18 y 65")
+                    document.formulario.txt_edad.focus();
+                    return false;
+                }
+                alert("se ingreso todo correcto");
+                //si esta todo correcto se enviaran los datos a un back-end
+                document.formulario.action = "pagina.jps";
+                document.formulario.submit() = true;
+        }
+    </script>
+    <form action="#" method="post" name="formulario" id="formulario">
+    <table>
+        <tr>
+            <td>Nombre</td>
+            <td><input type="text" name="txt_nombre" id="txt_nombre"></td>
+        </tr>
+        <tr>
+            <td>edad</td>
+            <td><input type="number" name="txt_edad" id="txt_edad"></td>
+        </tr>
+        <tr>
+            <td>Correo</td>
+            <td><input type="correo" name="txt_correo" id="txt_correo"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="Enviar" onclick="javascript:void(validar())"></td>
+            <td></td>
+        </tr>
+    </table>
+</form>    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        //Ejemplo de un if else
+        var numero = prompt("Ingrese un número")
+        if (parseInt(numero)==0)
+        {
+            document.write("Es neutro")
+        }
+        else if (parseInt(numero)>0)
+        {
+            document.write("Es positivo")
+        }
+        else{
+            document.write("Es negativo")
+        }
+        
+        //Ejemplo de un switch case
+        var opcion = prompt("Ingrese una opción entre 1 y 3")
+        switch(parseInt(opcion))
+        {
+            case 1: document.write("<br>Usted seleccionó 1")
+                    break;
+            case 2: document.write("<br>Usted seleccionó 2")
+                    break;
+            case 3: document.write("<br>Usted seleccionó 3")
+                     break;
+            default: document.write("<br>Debe seleccionar una opción entre 1 y 3...")
+                     break;
+        }
+    </script>
+</body>
+</html>

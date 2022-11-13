@@ -1,0 +1,82 @@
+[
+	{
+		"idRegion": 1,
+		"nombre": "tarapacá",
+		"poblacion": 324930
+	},
+	{
+		"idRegion": 2,
+		"nombre": "antofagasta",
+		"poblacion": 388545
+	},
+	{
+		"idRegion": 3,
+		"nombre": "atacama",
+		"poblacion": 324930
+	},
+	{
+		"idRegion": 4,
+		"nombre": "coquimbo",
+		"poblacion": 324930
+	},
+	{
+		"idRegion": 5,
+		"nombre": "Valparaiso",
+		"poblacion": 324930
+	},
+	{
+		"idRegion": 6,
+		"nombre": "ohiggins",
+		"poblacion": 908545
+	},
+	{
+		"idRegion": 7,
+		"nombre": "maule",
+		"poblacion": 1033000
+	},
+	{
+		"idRegion": 8,
+		"nombre": "bio bio",
+		"poblacion": 1557000
+	},
+	{
+		"idRegion": 9,
+		"nombre": "araucania",
+		"poblacion": 938626
+	},
+	{
+		"idRegion": 10,
+		"nombre": "los lagos",
+		"poblacion": 823204
+	},
+	{
+		"idRegion": 11,
+		"nombre": "Aysen",
+		"poblacion": 102317
+	},
+	{
+		"idRegion": 12,
+		"nombre": "Magallanes",
+		"poblacion": 165593
+	},
+	{
+		"idRegion": 13,
+		"nombre": "Metropolitana",
+		"poblacion": 938626
+	},
+	{
+		"idRegion": 14,
+		"nombre": "Los rios",
+		"poblacion": 356396
+	},
+	{
+		"idRegion": 15,
+		"nombre": "arica y parinacota",
+		"poblacion": 189644
+	},
+	{
+		"idRegion": 16,
+		"nombre": "nule",
+		"poblacion": 480609
+	}
+]

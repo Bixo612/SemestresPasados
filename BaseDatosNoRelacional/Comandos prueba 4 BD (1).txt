@@ -1,0 +1,93 @@
+
+- ¿Cuál es la cantidad de videos subidos por 1 usuario (puede utilizar el usuario que estime
+conveniente)?
+
+db.servidores.find({"usuario.nickname":"Yunan"}).itcount()
+
+- ¿Cuál es la cantidad de videos subidos por un género de interés (puede utilizar el género
+que estime conveniente)?
+
+db.servidores.find({genero_video:"ciencia"}).itcount()
+
+- ¿Cuántas canciones se han subido?
+
+db.servidores.find({tipo:"cancion"}).itcount()
+
+
+-- ¿Cuántos usuarios hay en la plataforma que tengan más de un año de antigüedad?
+
+db.servidores.find({"usuario.fechaIngresoPlataforma":{ $lt:new Date('2021-07-18')}}).itcount()
+
+
+-- ¿Cuántos usuarios tienen menos de un año de antigüedad?
+
+db.servidores.find({"usuario.fechaIngresoPlataforma":{ $gt:new Date('2021-07-18')}}).itcount()
+
+
+
+-¿Cuántos moderadores hay en la plataforma?
+
+db.servidores.find({$or:[{"usuario.moderador.tipoModerador":"Super Moderador"}, {"usuario.moderador.tipoModerador":"Moderador Normal"}, {"usuario.moderador.tipoModerador":"Moderador Superior"}]}).itcount()
+
+
+
+-- ¿Cuántos videos con calificación para mayores de 18 hay en la plataforma?
+
+
+
+db.servidores.find({restriccion_edad:"mayores 18"}).itcount()
+
+
+
+
+--- ¿Cuántas canciones hay en un género (puede utilizar el género que estime conveniente)?
+
+
+db.servidores.find({generoCancion:"Rock"}).itcount()
+
+
+
+--- ¿Cuáles son los videos publicados hasta el 31 de diciembre de 2020?
+
+
+db.servidores.find({fecha_publicacion:{ $lt:new Date('2020-12-31')}}).itcount()
+
+
+
+--- ¿Cuántos usuarios registrados son menores de 13 años?
+
+
+db.servidores.find({"usuario.fechaNacimiento":{ $gt:new Date('2009-07-18')}}).itcount()
+
+
+
+
+--- Modifique la fecha de todos los videos indicando que la fecha es el 1 de octubre de 2020 
+
+db.servidores.updateMany({fecha_publicacion:{ $lt:new Date('2020-09-30')}},{$set:{fecha_publicacion: new Date('2020-10-01')}})
+
+
+
+-- Modifique la cantidad de me gusta de los videos aumentando el valor en 350.
+
+asdasd
+
+
+
+--- Elimine todos los videos que tengan una calificación para mayores de 18.
+
+db.servidores.deleteMany({restriccion_edad:"mayores 18"})
+
+
+
+--Elimine a todos los usuarios que tengan menos de 13 años
+
+
+db.servidores.deleteMany({"usuario.fechaNacimiento":{ $gt:new Date('2009-07-18')}})
+
+
+
+
+
+
+

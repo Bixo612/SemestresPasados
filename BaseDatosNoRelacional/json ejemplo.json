@@ -1,0 +1,22 @@
+{
+    
+	"_id" : 101,
+	"usuario" : "JBenitez",
+	"edad" : 56,
+	"sexo" : "masculino",
+	"tags" : ["misterio","historia","ciencia ficcion"],
+	"titulo" : "caballo de troya",
+	"comentario" :[
+		{
+		"usuario" : "jpablo",
+		"fecha" : "12/03/2022",
+		"comentario" : "un bien libro de ciencia ficcion"
+		},
+		{
+		"usuario" : "jpablo",
+		"fecha" : "12/03/2022",
+		"comentario" : "no un bien libro de ciencia ficcion"
+		}
+	]
+
+}

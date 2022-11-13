@@ -1,0 +1,27 @@
+{
+    "rut": "19360397-1",
+    "nombre": "Vicetne Vasquez",
+    "domicilio": "Omar Herrera #1313",
+    "comuna": "La Cisterna",
+    "vehicuos": [
+        {
+            "patente": "HCDK86",
+            "tipo_vehiculo": "Station Wagon",
+            "marca": "Chevrolete",
+            "modelo": "Orlando",
+            "nro_motor": "7894QWE53951",
+            "nro_chasis": "321ASD654987",
+            "color": "Gris",
+            "anio": 2018,
+            "nro_serie": "QWE123345987",
+            "nro_vin": "PGT123123764",
+            "inscripcion": [
+                {
+                    "fecha_adquisicion": "12/03/2019",
+                    "fecha_inscripicion": "12/03/2019",
+                    "fecha_emision": "12/03/2019"
+                }
+            ]
+        }
+    ]
+}

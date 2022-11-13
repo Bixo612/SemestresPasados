@@ -1,0 +1,154 @@
+# Zapateria
+
+# Caso a Resolver:
+# Una tienda de calzado requiere registrar las ventas diarias,
+# para ello usted desarrollará un prototipo considerando atributos
+# de cada articulo: código, descripción, precio, cantidad, descuento (si será true, no será false).
+# Reglas de Negocio:
+# Precio debe ser mayor o igual a 7000.
+# Cantidad debe ser mayor a cero.
+# Código debe ser numérico entre 999 y 7999
+# Un método arrojará el total de la compra
+# Aquellos que tengan descuento se descontará un 20%
+# Generar una Clase Vendedor el cual pueda interactuar con la Clase Zapatería y
+# pueda realizar ventas, entregando los parámetros de cada producto.
+# Programe ambas clases y los métodos necesarios para hacer el proceso de ventas.
+# Además se requiere un método que entregue el total de las ventas realizadas en el día.
+
+def set_codigo():
+    codigo = -1
+    while codigo <= 999 or codigo >= 7999:
+        codigo = int(input("Ingrese un codigo entre 999 a 7999"))
+        if codigo <= 999 or codigo >= 7999:
+            print ("Codigo invalido intentelo nuevamente")
+        else:
+            print ("Codigo",codigo,"registrado correctamente")
+    return codigo
+
+def set_descripcion():
+    descripcion = input("Ingrese una descripcion")
+    return descripcion
+
+def set_precio():
+    precio = -1
+    while precio < 7000 :
+        precio = int(input("Ingrese un precio desde $7.000"))
+        if precio < 7000:
+            print ("Precio invalido intentelo nuevamente")
+        else:
+            print ("Precio",precio,"registrado correctamente")
+    return precio
+
+def set_cantidad():
+    cantidad = -1
+    while cantidad <= 0 :
+        cantidad = int(input("Ingrese un cantidad"))
+        if cantidad <= 0:
+            print ("Cantidad invalido intentelo nuevamente")
+        else:
+            print ("Cantidad",cantidad,"registrado correctamente")
+    return cantidad
+
+def set_descuento():
+    respuesta = ""
+    while respuesta != "y" or respuesta != "n":
+        respuesta = input("¿Tiene descuento? (y/n)") 
+        if respuesta == "y":
+            print ("El producto tiene descuento")
+            return True
+        elif respuesta == "n":
+            print ("El producto NO tiene descuento")
+            return False
+        else:
+            print ("Ingrese una opcion valida (y/n)")
+
+class Zapateria():
+
+    def __init__(self, nombreZap, dia):
+        self.nombreZap = nombreZap
+        self.dia = dia
+        self.ventas = 0
+    
+    def get_nombreZap(self):
+        return self.nombreZap
+    
+    def get_dia(self):
+        return self.dia
+    
+    def set_nombreZap(self, nombreZap):
+        self.nombreZap = nombreZap
+
+    def set_dia(self, dia):
+        self.dia = dia
+
+class Vendedor():
+    
+    def __init__(self, nombre):
+        self.nombre = nombre
+        self.zapatoVendido = None
+
+    def get_nombre(self):
+        return self.nombre
+
+    def set_nombre(self, nombre):
+        self.nombre = nombre
+
+    def CrearZapato(self):
+        self.zapatoVendido = Zapato()
+        print ("**Zapato Ok**")
+
+    
+
+class Zapato():
+    
+    def __init__(self):
+        self.codigo = set_codigo()
+        self.descripcion = set_descripcion()
+        self.precio = set_precio()   
+        self.cantidad = set_cantidad()
+        self.descuento = set_descuento()
+
+    def get_codigo(self):
+        return self.codigo
+
+    def get_descripcion(self):
+        return self.descripcion
+    
+    def get_precio(self):
+        return self.precio
+
+    def get_cantidad(self):
+        return self.cantidad
+
+    def get_descuento(self):
+        return self.descuento
+
+    def set_codigo(self):
+        self.codigo = set_codigo()
+    
+    def set_descricion(self):
+        self.descripcion = set_descripcion()
+
+    def set_precio(self):
+        self.precio = set_precio()
+
+    def set_cantidad(self):   
+        self.cantidad = set_cantidad()
+    
+    def set_precio(self):
+        self.descuento = set_descuento()
+
+    def __str__(self):
+        return "Codigo {} / Descripcion {} / Precio {} / Cantidad {} / Descuento {} ".format(
+            self.get_codigo(),self.get_descripcion(),self.get_precio(),self.get_cantidad(),self.get_descuento()
+        )
+
+memo = Vendedor("Memo")
+
+memo.CrearZapato()
+
+print(memo.zapatoVendido)
+
+
+
+print ("Fin :D")

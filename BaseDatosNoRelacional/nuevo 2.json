@@ -1,0 +1,110 @@
+[
+    {
+        "id_municipalidad": 2,
+        "comuna": "La cisterna",
+        "juzgados": [
+            {
+                "id_juzgado": 1,
+                "nombre_juzgado": "Primer juzgado de La Cisterna",
+                "multas": [
+                    {
+                        "nro_multa": 1000,
+                        "direccion_infracion": "Horizontal 1641",
+                        "fecha_infraccion": new Date("12-06-2002"),
+                        "motivo_infraccion": "Exceso de velocidad",
+                        "valor_infracion": 70000,
+                        "vehiculo": {
+                            "patente": "TR4560",
+                            "marca": "Ford",
+                            "modelo": "Mustang"
+                        },
+                        "inspector": {
+                            "id_inspector": 101,
+                            "fecha_ingreso": new Date("12-06-2000"),
+                            "funcionario_municipal": {
+                                "rut ": "13520500-K",
+                                "nombre": "Javier Ismael Diaz Torres",
+                                "sexo": "Masculino",
+                                "correo": "jidito@gmail.com",
+                                "fecha_nacimiento": new Date("12-06-1996"),
+                                "telefono": 956321410
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 4,
+        "comuna": "Puente Alto",
+        "juzgados": [
+            {
+                "id_juzgado": 1,
+                "nombre_juzgado": "Primer juzgado de Av Gabriela Oriente",
+                "multas": [
+                    {
+                        "nro_multa": 1000,
+                        "direccion_infracion": "Diagonal 1641",
+                        "fecha_infraccion": new Date("12-06-2004"),
+                        "motivo_infraccion": "Exceso de velocidad",
+                        "valor_infracion": 50000,
+                        "vehiculo": {
+                            "patente": "HCDK86",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "inspector": {
+                            "id_inspector": 101,
+                            "fecha_ingreso": new Date("12-06-2001"),
+                            "funcionario_municipal": {
+                                "rut ": "13520500-K",
+                                "nombre": "Marcela Ignacia Muñoz Diaz",
+                                "sexo": "Femenino",
+                                "correo": "mimd@gmail.com",
+                                "fecha_nacimiento": new Date("12-06-1996"),
+                                "telefono": 956321410
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 5,
+        "comuna": "Puente Alto",
+        "juzgados": [
+            {
+                "id_juzgado": 1,
+                "nombre_juzgado": "Primer juzgado de Av Gabriela Oriente",
+                "multas": [
+                    {
+                        "nro_multa": 1000,
+                        "direccion_infracion": "Pedro Nuñez Fernandez 1641",
+                        "fecha_infraccion": new Date("12-06-20005"),
+                        "motivo_infraccion": "Exceso de velocidad",
+                        "valor_infracion": 20000,
+                        "vehiculo": {
+                            "patente": "SP5356",
+                            "marca": "MG",
+                            "modelo": "2000"
+                        },
+                        "inspector": {
+                            "id_inspector": 101,
+                            "fecha_ingreso": new Date("12-06-20007"),
+                            "funcionario_municipal": {
+                                "rut ": "13520500-K",
+                                "nombre": "Sofia Andrea Muñoz Diaz",
+                                "sexo": "Femenino",
+                                "correo": "samd@gmail.com",
+                                "fecha_nacimiento": new Date("12-06-1996"),
+                                "telefono": 956321410
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

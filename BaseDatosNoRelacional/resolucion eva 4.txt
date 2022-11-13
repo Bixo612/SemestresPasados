@@ -1,0 +1,61 @@
+CONSULTAS
+
+- ¿Cuál es la cantidad de videos subidos por 1 usuario (puede utilizar el usuario que estime conveniente)?
+
+- ¿Cuál es la cantidad de videos subidos por un género de interés (puede utilizar el género que estime conveniente)?
+
+db.servidores.find({"usuarios.videos.genero":"Turismo"}).count()
+
+- ¿Cuántas canciones se han subido?
+- ¿Cuántos usuarios hay en la plataforma que tengan más de un año de antigüedad?
+
+db.servidores.fid()
+
+- ¿Cuántos usuarios tienen menos de un año de antigüedad?
+- ¿Cuántos moderadores hay en la plataforma?
+- ¿Cuántos videos con calificación para mayores de 18 hay en la plataforma?
+
+db.servidores.find({"usuarios.videos.restriccion":"+18"}).count()
+
+- ¿Cuántas canciones hay en un género (puede utilizar el género que estime conveniente)?
+
+db.servidores.find({"usuarios.canciones.genero":"Pop"}).count()
+
+- ¿Cuáles son los videos publicados hasta el 31 de diciembre de 2020?
+
+db.servidores.find({"usuarios.videos.fechaPublicacion" : {$lt:new Date("2020-12-31")} })
+
+- ¿Cuántos usuarios registrados son menores de 13 años?
+
+db.servidores.find({"usuarios.moderadores":{ "$exists": true }).count()
+
+MODIFICACIONES
+
+- Modifique la fecha de todos los videos indicando que la fecha es el 1 de octubre de 2020 
+cuando estos videos sean anteriores al 30 de septiembre de 2020. 
+
+db.servidores.updateMany(
+    {"usuarios.videos.fechaPublicacion": {lt:new Date("2020-09-30")} }
+    ,
+    {$set: {"usuarios.videos.fechaPublicacion": new Date("2020-10-01") } }
+)
+
+- Modifique la cantidad de me gusta de los videos aumentando el valor en 350. 
+
+db.servidores.updateMany({},
+    {$inc: {"usuarios.videos.likes":350 } }
+)
+
+- Elimine todos los videos que tengan una calificación para mayores de 18. 
+
+db.servidores.deleteMany(
+    {"usuarios.videos.restriccion": "+18" } }
+)
+
+- Elimine a todos los usuarios que tengan menos de 13 años. 
+
+db.servidores.deleteMany(
+    {
+        "usuarios.fechaNacimiento" : {$lt:new Date("2009-01-01")}
+    }
+)

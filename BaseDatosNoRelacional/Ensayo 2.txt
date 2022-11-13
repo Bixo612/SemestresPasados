@@ -1,0 +1,145 @@
+1.- Actualice todos los registros de la base persona que tengan en su nombre una letra e y cambie
+la comuna en la que vive por la comuna de “Osorno”.
+
+db.personas.updateMany(
+	{$or:[
+		{nombre: {$regex: /e/}},{nombre: {$regex: /E/}}
+	]},
+	{$set:{comuna:"Osorno"}}
+)
+
+2.- Muestre todos los documentos que contengan personas que vivan en una comuna que posea
+la letra o, Mayúscula o minúscula.
+
+db.personas.find(
+	{$or:[
+		{comuna: {$regex: /o/}},{nombre: {$regex: /O/}}
+	]}
+)
+
+3.- Elimine todos los registros de las personas que cumplan con todas las condiciones a
+continuación: vivan en la comuna de Ñuñoa, tengan una i en su nombre (mayúscula o minúscula) y
+que hubieran nacido antes de 1 de enero de 1981.
+
+db.personas.deleteMany(
+	{$and:
+		[
+			{$or:[{nombre: {$regex: /i/}},{nombre: {$regex: /I/}}]},
+			{fechaNacimiento:{"$lt": new Date('1981-01-01')}},
+			{comuna: 'Ñuñoa'}
+		]	
+	}
+)
+
+4.- Indique cuantas personas viven en la comuna de Osorno.
+
+db.personas.find({comuna: 'Osorno'}).count()
+
+5.- Ingrese 2 personas que vivan en la comuna de Valdivia.
+
+[
+	{
+        "rut":"19.360.397-1",
+        "nombre":"Vicente Ignacio Vasquez Galvez",
+        "direccion":"Pedro Nuñez Fernandez 1641 casa 35",
+        "fechaNacimiento": new Date("12-06-1996"),
+        "comuna":"Valdivia",
+        "correoElectronico":"vvasquez@xmail.com"
+    },
+    {
+        "rut":"19.750.000-1",
+        "nombre":"Joaquin Pedro Soto Galvez",
+        "direccion":"Diagonal 7530",
+        "fechaNacimiento": new Date("12-09-1996"),
+        "comuna":"Valdivia",
+        "correoElectronico":"jsoto@xmail.com"
+    }
+]
+
+6.- Indique cuantas personas viven en una comuna que contenga una letra l en su nombre
+(Mayúscula o minúscula), hubieran nacido desde del 27 de febrero de 2000 y que su rut termine
+con guion 5.
+
+db.personas.find(
+	{$or:[
+		{comuna: {$regex: /l/}},{comuna: {$regex: /L/}}
+	]}
+)
+
+db.personas.find(
+	{rut: {$regex: /5$/}}
+)
+
+db.personas.find(
+	{fechaNacimiento:{"$gt": new Date('2000-01-27')}}
+)
+
+db.personas.find(
+	{
+		$and:[
+			{$or:[
+				{comuna: {$regex: /l/}},{comuna: {$regex: /L/}}
+				]},
+			{rut: {$regex: /5$/}},
+			{fechaNacimiento:{"$gt": new Date('2000-01-27')}}
+		]
+	}
+)
+
+7.- Muestre todos los documentos que tengan una persona cuyo nombre contenga una letra a
+mayúscula o minúscula y muéstrelas ordenadas por fecha de nacimiento deforma ascendente.
+
+db.personas.find(
+	{$or:[
+		{nombre: {$regex: /a/}},{nombre: {$regex: /A/}}
+	]}
+).sort("fechaNacimiento")
+
+8.- Muestre todos los documentos que posean un rut que comience con “20”.
+
+db.personas.find({rut: {$regex: /^20/}})
+
+9.- Muestre todos los documentos ordenados por nombre de forma descendente.
+
+db.personas.find().sort({nombre: -1})
+
+10.- Muestre todos los documentos ordenados por comuna de forma descendente.
+
+db.personas.find().sort({comuna: -1})
+
+por que ñuñoa sale primero?
+
+11.- Muestre todos los documentos ordenados por rut de forma ascendente.
+
+db.personas.find().sort("rut")
+
+12.- Indique cuantas personas no viven en la comuna de Las Condes.
+
+db.personas.find(	
+		{comuna:{$not:{$eq:"Las Condes"}}}
+).count()
+
+13.- Muestre los documentos de todas las personas que vivan en La Reina, Ñuñoa o Las Condes.
+
+db.personas.find(
+	{
+		$or:[
+			{comuna: "La Reina"},{comuna: "Ñuñoa"},{comuna: "Las Condes"}
+		]
+	}
+)
+
+14.- indique cuantas personas viven en La Reina, Ñuñoa o Las Condes.
+
+db.personas.find(
+	{
+		$or:[
+			{comuna: "La Reina"},{comuna: "Ñuñoa"},{comuna: "Las Condes"}
+		]
+	}
+).count()
+
+
+
+
+

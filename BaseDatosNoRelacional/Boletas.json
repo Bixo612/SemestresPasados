@@ -1,0 +1,167 @@
+[
+    {
+        "idboleta": 1000,
+        "fecha": "29/03/2022",
+        "valorNeto": 15000,
+        "iva": 1000,
+        "valorTotal": 16000,
+        "detalle": [
+            {
+                "idProducto": 101,
+                "marca": "Lucheti",
+                "nombre": "Salsas de tomate",
+                "valor": 500,
+                "descripcion": "",
+                "cantidad": 2
+            },
+            {
+                "idProducto": 102,
+                "marca": "Lucheti",
+                "nombre": "Paquete de rabioles",
+                "valor": 750,
+                "descripcion": "",
+                "cantidad": 5
+            },
+            {
+                "idProducto": 103,
+                "marca": "PF",
+                "nombre": "Carne molida",
+                "valor": 500,
+                "descripcion": "",
+                "cantidad": 2
+            }
+        ]
+    },
+    {
+        "idboleta": 1001,
+        "fecha": "30/03/2022",
+        "valorNeto": 20000,
+        "iva": 2000,
+        "valorTotal": 22000,
+        "detalle": [
+            {
+                "idProducto": 104,
+                "marca": "Cachantun",
+                "nombre": "Agua mineral",
+                "valor": 750,
+                "descripcion": "",
+                "cantidad": 7
+            },
+            {
+                "idProducto": 105,
+                "marca": "Red Bull",
+                "nombre": "Paquete de rabioles",
+                "valor": 750,
+                "descripcion": "",
+                "cantidad": 6
+            },
+            {
+                "idProducto": 106,
+                "marca": "CCU",
+                "nombre": "Bebida Pepsi",
+                "valor": 1500,
+                "descripcion": "",
+                "cantidad": 3
+            }
+        ]
+    },
+    {
+        "idboleta": 1002,
+        "fecha": "29/03/2022",
+        "valorNeto": 15000,
+        "iva": 1000,
+        "valorTotal": 16000,
+        "detalle": [
+            {
+                "idProducto": 107,
+                "marca": "Iansa",
+                "nombre": "Bolsa de azucar",
+                "valor": 900,
+                "descripcion": "",
+                "cantidad": 1
+            },
+            {
+                "idProducto": 108,
+                "marca": "Soprole",
+                "nombre": "Yoghurt de frutilla",
+                "valor": 150,
+                "descripcion": "",
+                "cantidad": 10
+            },
+            {
+                "idProducto": 109,
+                "marca": "Soprole",
+                "nombre": "Manjarate",
+                "valor": 200,
+                "descripcion": "",
+                "cantidad": 10
+            }
+        ]
+    },
+    {
+        "idboleta": 1003,
+        "fecha": "30/03/2022",
+        "valorNeto": 20000,
+        "iva": 2000,
+        "valorTotal": 22000,
+        "detalle": [
+            {
+                "idProducto": 101,
+                "marca": "Lucheti",
+                "nombre": "Salsas de tomate",
+                "valor": 500,
+                "descripcion": "",
+                "cantidad": 4
+            },
+            {
+                "idProducto": 106,
+                "marca": "CCU",
+                "nombre": "Bebida Pepsi",
+                "valor": 1500,
+                "descripcion": "",
+                "cantidad": 5
+            },
+            {
+                "idProducto": 107,
+                "marca": "Iansa",
+                "nombre": "Bolsa de azucar",
+                "valor": 900,
+                "descripcion": "",
+                "cantidad": 2
+            }
+        ]
+    },
+    {
+        "idboleta": 1003,
+        "fecha": "30/03/2022",
+        "valorNeto": 20000,
+        "iva": 2000,
+        "valorTotal": 22000,
+        "detalle": [
+            {
+                "idProducto": 110,
+                "marca": "Cristal",
+                "nombre": "cerveza 1 lt",
+                "valor": 1000,
+                "descripcion": "",
+                "cantidad": 1
+            },
+            {
+                "idProducto": 111,
+                "marca": "Kungsman",
+                "nombre": "cerveza toroballo",
+                "valor": 2000,
+                "descripcion": "",
+                "cantidad": 3
+            },
+            {
+                "idProducto": 111,
+                "marca": "Kungsman",
+                "nombre": "cerveza gran toroballo",
+                "valor": 2000,
+                "descripcion": "",
+                "cantidad": 2
+            }
+        ]
+    }
+]

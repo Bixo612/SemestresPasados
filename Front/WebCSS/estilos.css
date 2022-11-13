@@ -1,0 +1,62 @@
+header{
+    background-color: blue;
+    padding: 30px;
+    text-align: center;
+}
+body{
+    width: 900px;
+    margin: 0px auto;
+}
+nav{
+    background-color: teal;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 3px;
+}
+a{
+    color: white;
+     text-decoration: none;
+}
+a:hover{
+    color:red ;
+}
+aside{
+    background-color: grey;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    float: right;
+   
+}
+article{
+  background-color: teal;
+  padding: 10px;
+  height: 300px;
+  width: 550px;
+  margin-top: 3px;
+  
+}
+footer{
+    background-color: blue;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 3px;
+}
+
+
+
+/* Definición de Clases */
+.titulo{
+    color: yellow;    
+}
+.fuente{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Definición de id */
+#parrafo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    text-align: justify;
+}

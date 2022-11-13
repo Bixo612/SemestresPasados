@@ -1,0 +1,62 @@
+CONSULTAS
+
+- ¿Cuál es la cantidad de videos subidos por  1 usuario (puede utilizar el usuario que estime 
+conveniente)? 
+
+db.multimedia.find({"usuario._id":1}).itcount()
+
+- ¿Cuál es  la cantidad de videos subidos por  un género de  interés  (puede utilizar el género 
+que estime conveniente)? 
+
+db.multimedia.find({"generoInteres":"Educativo"}).count()
+
+- ¿Cuántas canciones se han subido? 
+
+db.multimedia.find({"archivo":"Cancion"}).count()
+
+- ¿Cuántos usuarios hay en la plataforma que tengan más de un año de antigüedad? 
+
+db.multimedia.distinct("usuario._id",{"usuario.fechaAlta": {$lt:new Date("2021-07-01")}}).length
+
+- ¿Cuántos usuarios tienen menos de un año de antigüedad? 
+
+db.multimedia.distinct("usuario._id",{"usuario.fechaAlta": {$gt:new Date("2021-07-01")}}).length
+
+- ¿Cuántos moderadores hay en la plataforma? 
+
+db.multimedia.distinct("usuario._id",{"usuario.moderador":{"$exists":1}}).length
+
+- ¿Cuántos videos con calificación para mayores de 18 hay en la plataforma? 
+
+db.multimedia.find({"restriccion":"+18"}).count()
+
+- ¿Cuántas canciones hay en un género (puede utilizar el género que estime conveniente)? 
+
+db.multimedia.find({"generoMusical": "Pop"}).count()
+
+- ¿Cuáles son los videos publicados hasta el 31 de diciembre de 2020? 
+
+db.multimedia.find({"fechaPublicacion": {$gt:new Date("2020-12-31")}})
+
+- ¿Cuántos usuarios registrados son menores de 13 años?
+
+db.multimedia.distinct("usuario._id",{"servidor.nombre": "Buenos Aires"})
+
+MODIFICACIONES
+
+- Modifique la fecha de todos los videos indicando que la fecha es el 1 de octubre de 2020 
+cuando estos videos sean anteriores al 30 de septiembre de 2020. 
+
+db.multimedia.updateMany({fechaPublicacion:{ $lt:new Date('2020-09-30')}},{$set:{fechaPublicacion: new Date('2020-10-01')}})
+
+- Modifique la cantidad de me gusta de los videos aumentando el valor en 350. 
+
+db.multimedia.updateMany({archivo:"Video"},{$inc:{"likes":350}})
+
+- Elimine todos los videos que tengan una calificación para mayores de 18. 
+
+db.multimedia.deleteMany({restriccion:"+18"})
+
+- Elimine a todos los usuarios que tengan menos de 13 años. 
+
+db.multimedia.deleteMany({"usuario.fechaNacimiento":{ $gt:new Date('2009-07-18')}})

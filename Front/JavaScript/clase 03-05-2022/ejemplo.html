@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <!--
+    <script>
+        var nombre ="Juana"
+        var edad = 23
+        var estatura = 1.71
+        var genero = "F"
+        document.write("<h2> Informacion de persona </h2><hr>")
+        document.write("Nombre: ", nombre,"<br>")
+        document.write("Edad: ", edad,"<br>")
+        document.write("Estatura: ", estatura,"<br>")
+        document.write("Genero: ", genero,"<br>")        
+    </script>
+    -->
+    <!--
+        parseInt transforma a entero y parseFloat transforma a decimal
+        document.write une cadenas con comas y alert las une con un signo mas
+    -->
+    <script>
+        var v1 = prompt("Ingrese un numero:")
+        var v2 = prompt("Ingrese otro numero:")
+        //convierte a entero
+        var valor1 = parseInt(v1)
+        var valor2 = parseInt(v2)
+        //multiplica los enteros
+        var resultado = valor1 * valor2
+        alert("Multiplicacion es: " + resultado)
+        //compara enteros
+        if(valor1>valor2)
+        {
+            document.write(valor1," es el mayor")
+        }
+        else
+        {
+            document.write(valor2," es el mayor")
+        }
+    </script>
+
+
+
+</body>
+</html>

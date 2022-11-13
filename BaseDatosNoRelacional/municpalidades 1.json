@@ -1,0 +1,58 @@
+{
+    "id_municipalidad": 1,
+    "comuna": "Puente Alto",
+    "juzgados_policia_local": [
+        {
+            "id_juzgado": 1,
+            "nombre_juzgado": "Primer juzgado de Av Gabriela Poniente"
+        },
+        {
+            "id_juzgado": 2,
+            "nombre_juzgado": "Segundo juzgado de Av Concha y toro"
+        }
+    ],
+    "funcionarios_municipales": [
+        {
+            "rut ": "13123456-K",
+            "nombre": "Felipe Andres Soto Muñoz",
+            "sexo": "Masculino",
+            "correo": "fasomu@gmail.com",
+            "fecha_nacimiento": "14-10-1985",
+            "telefono": 951756532,
+            "id_inspector": 100,
+            "fecha_ingreso": "1-1-2019"
+        },
+        {
+            "rut ": "13520500-K",
+            "nombre": "Javier Ismael Diaz Torres",
+            "sexo": "Masculino",
+            "correo": "jidito@gmail.com",
+            "fecha_nacimiento": "11-11-1985",
+            "telefono": 956321410,
+            "id_inspector": 101,
+            "fecha_ingreso": "1-1-2019"
+        }
+    ],
+    "multas": [
+        {
+            "nro_multa":1000,
+            "direccion_infracion" : "Pedro Nuñez Fernandez 1641",
+            "fecha_infraccion" : "18-09-2020",
+            "motivo_infraccion" : "Exceso de velocidad",
+            "patente" : "HCDK86",
+            "marca" : "Chevrolet",
+            "modelo" :"Orlando"
+        },
+        {
+            "nro_multa":1001,
+            "direccion_infracion" : "Av Los toros 504",
+            "fecha_infraccion" : "19-09-2020",
+            "motivo_infraccion" : "Exceso de velocidad",
+            "patente" : "MYRT90",
+            "marca" : "Kia",
+            "modelo" :"Rio"
+        }
+    ]
+
+
+}

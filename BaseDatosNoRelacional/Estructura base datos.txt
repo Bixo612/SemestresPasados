@@ -1,0 +1,33 @@
+[
+	{
+		"nroFactura" : 1,
+		"fechaFactura" : new Date(""),
+		"receptorFactura" :
+			{
+				"rut" : "",
+				"nombre" : "",
+				"direccion" : ,
+				"giro" : 
+			},
+		"vendedor" : 
+			{
+				"codVendedor" : 1,
+				"nombreVendedor" : ""
+			},
+		"productos" : 
+			[
+				{
+					"numeroPreducto" : 1,
+					"descripcion" : "",
+					"cantidad" : 1,
+					"valorNeto" : 1,
+					"iva" : 1,
+					"totalProducto" :
+				}
+			],
+		"totalNeto" : 1,
+		"iva" : 1,
+		"valorTotal" : 1,
+		"comentarios" : ""
+	}
+]

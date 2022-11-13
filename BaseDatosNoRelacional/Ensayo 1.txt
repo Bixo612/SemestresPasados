@@ -1,0 +1,61 @@
+1-Indique cuantas personas nacieron despues de 31-10-1984
+
+db.personas.find({fechaNacimiento:{"$gt": new Date('1984-10-31')}}).count()
+
+2-indique cuantas personas tienen en su nombre una letra 'o' (mayuscula o minuscula)
+
+db.personas.find(
+	{$or:[
+		{nombre: {$regex: /o/}},{nombre: {$regex: /O/}}
+	]}
+).count()
+
+
+3-muestre quienes nacieron antes de 1-1-1980 y viven en ñuñoa
+
+db.personas.find({$and:[
+{fechaNacimiento:{"$lt": new Date('1980-1-1')}},
+{comuna: 'Ñuñoa'}
+]})
+
+4-indique cuantas personas vive en ñuñoa o en la florida
+
+db.personas.find({$or:[
+{comuna: 'Ñuñoa'},
+{comuna: 'La Florida'}
+]}).count()
+
+5-muestre quienes tienen un correo que contiene la letra 'c'
+
+db.personas.find(
+{correoElectronico: {$regex: /f/}}
+)
+
+6-muestre todas las personas que no viven en ñuñoa y hubieran nacido despues del 1-1-1980
+
+db.personas.find(
+	{
+		$and:[
+			{comuna:{$not:{$eq:"Ñuñoa"}}},
+			{fechaNacimiento:{"$gt": new Date('1980-01-01')}}
+		]
+	}
+)
+
+7-muestre todas las personas cuyo rut comience con 1 y termine con 2
+
+db.personas.find(
+	{$and:[
+			{rut: {$regex: /^1/}},{rut: {$regex: /2$/}}
+	]})
+
+8-muestre las personas cuyo rut termine en 5 y su nombre comience con 'a'
+
+db.personas.find(
+	{
+		$and:[
+			{rut: {$regex: /5$/}},
+			{nombre: {$regex: /^A/}}
+		]
+	}
+)

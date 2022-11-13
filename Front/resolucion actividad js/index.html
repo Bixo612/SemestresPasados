@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap demo</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+	<script type="text/javascript" src="./funciones.js"></script>
+	<div class="container">
+		<div class="row g-3">
+			<form action="#" method="post" name="form_area_circulo">
+				<h4>Área del ciruclo</h4>
+				<label for="number_radio" class="form-label">Ingrese el radio del círculo</label>
+				<input type="number" class="form-control" id="number_radio" name="number_radio">
+				<input type="button" value="Calcular Área" class="btn btn-success"
+					onclick="javascript:void(calcular_area())">
+				<input type="text" class="form-control" id="txt_resultado_radio" name="txt_resultado_radio">
+			</form>
+		</div>
+		<hr>
+		<!---->
+		<div class="row g-3">
+			<form action="#" method="post" name="form_imc">
+				<h4>Calculadora Imc</h4>
+				<label for="number_estatura" class="form-label">Estatura (en metros)</label>
+				<input type="number" class="form-control" id="number_estatura" name="number_estatura">
+				<label for="number_peso" class="form-label">Peso (en kilogramos)</label>
+				<input type="number" class="form-control" id="number_peso" name="number_peso">
+				<input type="button" value="Calcular IMC" class="btn btn-success"
+					onclick="javascript:void(calcular_imc())">
+				<input type="text" class="form-control"id="txt_resultado_IMC" name="txt_resultado_IMC">
+			</form>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

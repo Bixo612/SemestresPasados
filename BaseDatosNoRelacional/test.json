@@ -1,0 +1,3302 @@
+[
+    {
+        "id_municipalidad": 1,
+        "comuna": "Puente Alto",
+        "juzgados": [
+            {
+                "id_juzgado": 101,
+                "nombre_juzgado": "Primer juzgado de Puente Alto",
+                "multas": [
+                    {
+                        "nro_multa": 1001,
+                        "direccion": "Av Longitudinal # 2701",
+                        "fecha": "5-2-2020",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "BKCK29",
+                            "marca": "Hyundai",
+                            "modelo": "Santa Fe"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1002,
+                        "direccion": "Manuel Blanco Encalada # 5939",
+                        "fecha": "19-11-2022",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "PKXU23",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 102,
+                "nombre_juzgado": "Segundo juzgado de Puente Alto",
+                "multas": [
+                    {
+                        "nro_multa": 1003,
+                        "direccion": "Manuel Bulnes # 5751",
+                        "fecha": "28-8-2021",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "CMXH91",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1004,
+                        "direccion": "Arturo Prat # 203",
+                        "fecha": "11-2-2020",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "YTHS01",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 2,
+        "comuna": "Pudahuel",
+        "juzgados": [
+            {
+                "id_juzgado": 103,
+                "nombre_juzgado": "Primer juzgado de Pudahuel",
+                "multas": [
+                    {
+                        "nro_multa": 1005,
+                        "direccion": "Arturo Prat # 7079",
+                        "fecha": "20-4-2021",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "SQMP07",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1006,
+                        "direccion": "Joaquín Prieto # 9818",
+                        "fecha": "4-6-2021",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "KPYZ34",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 104,
+                "nombre_juzgado": "Segundo juzgado de Pudahuel",
+                "multas": [
+                    {
+                        "nro_multa": 1007,
+                        "direccion": "Manuel Bulnes # 1432",
+                        "fecha": "13-6-2021",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "FRGY72",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1008,
+                        "direccion": "Manuel Blanco Encalada # 9428",
+                        "fecha": "16-5-2022",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "XZFG23",
+                            "marca": "Suzuki",
+                            "modelo": "Vitara"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 3,
+        "comuna": "La Reina",
+        "juzgados": [
+            {
+                "id_juzgado": 105,
+                "nombre_juzgado": "Primer juzgado de La Reina",
+                "multas": [
+                    {
+                        "nro_multa": 1009,
+                        "direccion": "Gabriela Mistral # 8032",
+                        "fecha": "12-8-2022",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "XGBA29",
+                            "marca": "Suzuki",
+                            "modelo": "S-Presso"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1010,
+                        "direccion": "Av Longitudinal # 1108",
+                        "fecha": "27-10-2021",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "CBXQ81",
+                            "marca": "Chevrolet",
+                            "modelo": "Spin"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 106,
+                "nombre_juzgado": "Segundo juzgado de La Reina",
+                "multas": [
+                    {
+                        "nro_multa": 1011,
+                        "direccion": "Vicente Huidobro # 1668",
+                        "fecha": "30-10-2020",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "CKVT37",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1012,
+                        "direccion": "Manuel Bulnes # 3830",
+                        "fecha": "14-11-2020",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "ZRSZ59",
+                            "marca": "Chevrolet",
+                            "modelo": "Spin"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 4,
+        "comuna": "Las Condes",
+        "juzgados": [
+            {
+                "id_juzgado": 107,
+                "nombre_juzgado": "Primer juzgado de Las Condes",
+                "multas": [
+                    {
+                        "nro_multa": 1013,
+                        "direccion": "Arturo Prat # 2851",
+                        "fecha": "22-5-2020",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "FFYW10",
+                            "marca": "Suzuki",
+                            "modelo": "S-Presso"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1014,
+                        "direccion": "Pablo Neruda # 8858",
+                        "fecha": "25-9-2022",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "NSYT08",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 108,
+                "nombre_juzgado": "Segundo juzgado de Las Condes",
+                "multas": [
+                    {
+                        "nro_multa": 1015,
+                        "direccion": "José Manuel Balmaceda # 1497",
+                        "fecha": "12-8-2020",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "XLOU12",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1016,
+                        "direccion": "Joaquín Prieto # 1750",
+                        "fecha": "3-9-2022",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "GQEY29",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 5,
+        "comuna": "La Florida",
+        "juzgados": [
+            {
+                "id_juzgado": 109,
+                "nombre_juzgado": "Primer juzgado de La Florida",
+                "multas": [
+                    {
+                        "nro_multa": 1017,
+                        "direccion": "Jose Miguel Carrera # 4497",
+                        "fecha": "7-9-2020",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "BHJE74",
+                            "marca": "Hyundai",
+                            "modelo": "Santa Fe"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1018,
+                        "direccion": "Jose Miguel Carrera # 7161",
+                        "fecha": "23-8-2021",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "IIRH77",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 110,
+                "nombre_juzgado": "Segundo juzgado de La Florida",
+                "multas": [
+                    {
+                        "nro_multa": 1019,
+                        "direccion": "Gabriela Mistral # 1432",
+                        "fecha": "12-8-2020",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "FHCM96",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1020,
+                        "direccion": "Bernardo O'Higgins # 2093",
+                        "fecha": "11-7-2022",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "DYWI91",
+                            "marca": "Hyundai",
+                            "modelo": "Santa Fe"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 6,
+        "comuna": "La Cisterna",
+        "juzgados": [
+            {
+                "id_juzgado": 111,
+                "nombre_juzgado": "Primer juzgado de La Cisterna",
+                "multas": [
+                    {
+                        "nro_multa": 1021,
+                        "direccion": "Gabriela Mistral # 5941",
+                        "fecha": "6-4-2020",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "NSUI53",
+                            "marca": "Hyundai",
+                            "modelo": "Santa Fe"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1022,
+                        "direccion": "Pedro Aguirre Cerda # 9502",
+                        "fecha": "29-6-2021",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "PXKB64",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 112,
+                "nombre_juzgado": "Segundo juzgado de La Cisterna",
+                "multas": [
+                    {
+                        "nro_multa": 1023,
+                        "direccion": "Arturo Prat # 9808",
+                        "fecha": "8-1-2020",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "MCMQ78",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1024,
+                        "direccion": "Joaquín Prieto # 9917",
+                        "fecha": "18-4-2021",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "HCEJ62",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 7,
+        "comuna": "Valparaiso",
+        "juzgados": [
+            {
+                "id_juzgado": 113,
+                "nombre_juzgado": "Primer juzgado de Valparaiso",
+                "multas": [
+                    {
+                        "nro_multa": 1025,
+                        "direccion": "Av Daigonal # 115",
+                        "fecha": "1-5-2022",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "SLLK87",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1026,
+                        "direccion": "Av Longitudinal # 9607",
+                        "fecha": "8-5-2022",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "HGLM00",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 114,
+                "nombre_juzgado": "Segundo juzgado de Valparaiso",
+                "multas": [
+                    {
+                        "nro_multa": 1027,
+                        "direccion": "Av Longitudinal # 6123",
+                        "fecha": "15-1-2020",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "ZKHI02",
+                            "marca": "Chevrolet",
+                            "modelo": "Spin"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1028,
+                        "direccion": "José Manuel Balmaceda # 8618",
+                        "fecha": "21-12-2020",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "RHXF05",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 8,
+        "comuna": "Estacion Central",
+        "juzgados": [
+            {
+                "id_juzgado": 115,
+                "nombre_juzgado": "Primer juzgado de Estacion Central",
+                "multas": [
+                    {
+                        "nro_multa": 1029,
+                        "direccion": "Av Transversal # 6700",
+                        "fecha": "17-11-2020",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "YDLQ85",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1030,
+                        "direccion": "Av Daigonal # 5343",
+                        "fecha": "10-10-2022",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "UZIV57",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 116,
+                "nombre_juzgado": "Segundo juzgado de Estacion Central",
+                "multas": [
+                    {
+                        "nro_multa": 1031,
+                        "direccion": "Manuel Bulnes # 5737",
+                        "fecha": "13-8-2022",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "MQZB42",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1032,
+                        "direccion": "Manuel Bulnes # 4971",
+                        "fecha": "30-11-2021",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "VARQ37",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 9,
+        "comuna": "Viña del Mar",
+        "juzgados": [
+            {
+                "id_juzgado": 117,
+                "nombre_juzgado": "Primer juzgado de Viña del Mar",
+                "multas": [
+                    {
+                        "nro_multa": 1033,
+                        "direccion": "José Manuel Balmaceda # 8440",
+                        "fecha": "18-12-2020",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "NOTJ79",
+                            "marca": "Hyundai",
+                            "modelo": "Tucson"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1034,
+                        "direccion": "Manuel Bulnes # 3155",
+                        "fecha": "22-3-2021",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "BZSY41",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 118,
+                "nombre_juzgado": "Segundo juzgado de Viña del Mar",
+                "multas": [
+                    {
+                        "nro_multa": 1035,
+                        "direccion": "Manuel Blanco Encalada # 8457",
+                        "fecha": "23-1-2021",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "YHLK76",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1036,
+                        "direccion": "Luis Barros Borgoño # 266",
+                        "fecha": "9-5-2022",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "MVRD45",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 10,
+        "comuna": "El Bosque",
+        "juzgados": [
+            {
+                "id_juzgado": 119,
+                "nombre_juzgado": "Primer juzgado de El Bosque",
+                "multas": [
+                    {
+                        "nro_multa": 1037,
+                        "direccion": "Arturo Prat # 1040",
+                        "fecha": "15-11-2020",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "MURY13",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1038,
+                        "direccion": "Manuel Bulnes # 6889",
+                        "fecha": "17-6-2021",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "LFKF26",
+                            "marca": "Chevrolet",
+                            "modelo": "Spin"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 120,
+                "nombre_juzgado": "Segundo juzgado de El Bosque",
+                "multas": [
+                    {
+                        "nro_multa": 1039,
+                        "direccion": "Pablo Neruda # 6264",
+                        "fecha": "31-8-2021",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "HWMA01",
+                            "marca": "Suzuki",
+                            "modelo": "S-Presso"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1040,
+                        "direccion": "José Manuel Balmaceda # 5086",
+                        "fecha": "25-11-2020",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "XDBQ87",
+                            "marca": "Suzuki",
+                            "modelo": "S-Presso"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 11,
+        "comuna": "Maipu",
+        "juzgados": [
+            {
+                "id_juzgado": 121,
+                "nombre_juzgado": "Primer juzgado de Maipu",
+                "multas": [
+                    {
+                        "nro_multa": 1041,
+                        "direccion": "Arturo Prat # 3495",
+                        "fecha": "19-3-2022",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "VERF60",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1042,
+                        "direccion": "Av Longitudinal # 6535",
+                        "fecha": "12-6-2020",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "EKYP99",
+                            "marca": "Hyundai",
+                            "modelo": "Tucson"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 122,
+                "nombre_juzgado": "Segundo juzgado de Maipu",
+                "multas": [
+                    {
+                        "nro_multa": 1043,
+                        "direccion": "Manuel Blanco Encalada # 5201",
+                        "fecha": "22-10-2021",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "KTWN85",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1044,
+                        "direccion": "Av Transversal # 8591",
+                        "fecha": "16-9-2020",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "SSIQ15",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 12,
+        "comuna": "El Bosque",
+        "juzgados": [
+            {
+                "id_juzgado": 123,
+                "nombre_juzgado": "Primer juzgado de El Bosque",
+                "multas": [
+                    {
+                        "nro_multa": 1045,
+                        "direccion": "Jose Miguel Carrera # 4924",
+                        "fecha": "18-6-2022",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "CJCS58",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1046,
+                        "direccion": "Arturo Prat # 8742",
+                        "fecha": "2-7-2022",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "LOCS65",
+                            "marca": "Suzuki",
+                            "modelo": "Vitara"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 124,
+                "nombre_juzgado": "Segundo juzgado de El Bosque",
+                "multas": [
+                    {
+                        "nro_multa": 1047,
+                        "direccion": "Jose Miguel Carrera # 4383",
+                        "fecha": "27-9-2020",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "SAJC69",
+                            "marca": "Suzuki",
+                            "modelo": "Vitara"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1048,
+                        "direccion": "Manuel Blanco Encalada # 9450",
+                        "fecha": "8-9-2022",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "XLGI93",
+                            "marca": "Chevrolet",
+                            "modelo": "Spin"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 13,
+        "comuna": "La Serena",
+        "juzgados": [
+            {
+                "id_juzgado": 125,
+                "nombre_juzgado": "Primer juzgado de La Serena",
+                "multas": [
+                    {
+                        "nro_multa": 1049,
+                        "direccion": "Av Transversal # 1081",
+                        "fecha": "20-4-2022",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "NPOF30",
+                            "marca": "Chevrolet",
+                            "modelo": "Spin"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1050,
+                        "direccion": "José Manuel Balmaceda # 2643",
+                        "fecha": "15-6-2020",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "PGFC41",
+                            "marca": "Chevrolet",
+                            "modelo": "Spin"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 126,
+                "nombre_juzgado": "Segundo juzgado de La Serena",
+                "multas": [
+                    {
+                        "nro_multa": 1051,
+                        "direccion": "José Manuel Balmaceda # 787",
+                        "fecha": "3-2-2020",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "TGFI14",
+                            "marca": "Suzuki",
+                            "modelo": "S-Presso"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1052,
+                        "direccion": "Av Longitudinal # 7699",
+                        "fecha": "20-10-2020",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "LNTU83",
+                            "marca": "Hyundai",
+                            "modelo": "Santa Fe"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 14,
+        "comuna": "Coquimbo",
+        "juzgados": [
+            {
+                "id_juzgado": 127,
+                "nombre_juzgado": "Primer juzgado de Coquimbo",
+                "multas": [
+                    {
+                        "nro_multa": 1053,
+                        "direccion": "Bernardo O'Higgins # 6098",
+                        "fecha": "25-6-2022",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "UZUR35",
+                            "marca": "Hyundai",
+                            "modelo": "Santa Fe"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1054,
+                        "direccion": "Manuel Bulnes # 3865",
+                        "fecha": "12-6-2020",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "PIVJ58",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 128,
+                "nombre_juzgado": "Segundo juzgado de Coquimbo",
+                "multas": [
+                    {
+                        "nro_multa": 1055,
+                        "direccion": "Vicente Huidobro # 7935",
+                        "fecha": "5-12-2022",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "GBZV86",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1056,
+                        "direccion": "Vicente Huidobro # 8356",
+                        "fecha": "27-9-2022",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "KNZT14",
+                            "marca": "Hyundai",
+                            "modelo": "Tucson"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 15,
+        "comuna": "Recoleta",
+        "juzgados": [
+            {
+                "id_juzgado": 129,
+                "nombre_juzgado": "Primer juzgado de Recoleta",
+                "multas": [
+                    {
+                        "nro_multa": 1057,
+                        "direccion": "José Manuel Balmaceda # 6562",
+                        "fecha": "10-7-2022",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "QCFM75",
+                            "marca": "Suzuki",
+                            "modelo": "S-Presso"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1058,
+                        "direccion": "Bernardo O'Higgins # 284",
+                        "fecha": "9-3-2022",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "MARR78",
+                            "marca": "Suzuki",
+                            "modelo": "S-Presso"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 130,
+                "nombre_juzgado": "Segundo juzgado de Recoleta",
+                "multas": [
+                    {
+                        "nro_multa": 1059,
+                        "direccion": "Bernardo O'Higgins # 1771",
+                        "fecha": "16-3-2021",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "LYFL50",
+                            "marca": "Chevrolet",
+                            "modelo": "Spin"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1060,
+                        "direccion": "Av Longitudinal # 5358",
+                        "fecha": "4-7-2020",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "VQGK74",
+                            "marca": "Chevrolet",
+                            "modelo": "Spin"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 16,
+        "comuna": "Quinta Normal",
+        "juzgados": [
+            {
+                "id_juzgado": 131,
+                "nombre_juzgado": "Primer juzgado de Quinta Normal",
+                "multas": [
+                    {
+                        "nro_multa": 1061,
+                        "direccion": "Av Daigonal # 4162",
+                        "fecha": "6-4-2020",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "LZYI29",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1062,
+                        "direccion": "Manuel Bulnes # 8804",
+                        "fecha": "22-2-2022",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "OCVC05",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 132,
+                "nombre_juzgado": "Segundo juzgado de Quinta Normal",
+                "multas": [
+                    {
+                        "nro_multa": 1063,
+                        "direccion": "Gabriela Mistral # 979",
+                        "fecha": "5-5-2021",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "PXKI56",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1064,
+                        "direccion": "Av Longitudinal # 4802",
+                        "fecha": "17-1-2022",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "RNUI26",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 17,
+        "comuna": "Cartaguena",
+        "juzgados": [
+            {
+                "id_juzgado": 133,
+                "nombre_juzgado": "Primer juzgado de Cartaguena",
+                "multas": [
+                    {
+                        "nro_multa": 1065,
+                        "direccion": "Gabriela Mistral # 6661",
+                        "fecha": "6-9-2022",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "BNCX63",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1066,
+                        "direccion": "Pablo Neruda # 1515",
+                        "fecha": "27-7-2022",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "SIQW98",
+                            "marca": "Hyundai",
+                            "modelo": "Santa Fe"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 134,
+                "nombre_juzgado": "Segundo juzgado de Cartaguena",
+                "multas": [
+                    {
+                        "nro_multa": 1067,
+                        "direccion": "Manuel Bulnes # 2087",
+                        "fecha": "26-6-2020",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "DRZB87",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1068,
+                        "direccion": "José Manuel Balmaceda # 2616",
+                        "fecha": "28-10-2020",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "FCHI75",
+                            "marca": "Suzuki",
+                            "modelo": "S-Presso"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 18,
+        "comuna": "Quillota",
+        "juzgados": [
+            {
+                "id_juzgado": 135,
+                "nombre_juzgado": "Primer juzgado de Quillota",
+                "multas": [
+                    {
+                        "nro_multa": 1069,
+                        "direccion": "Arturo Prat # 1845",
+                        "fecha": "8-11-2021",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "LARV08",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1070,
+                        "direccion": "Arturo Prat # 7594",
+                        "fecha": "20-9-2022",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "DXVR00",
+                            "marca": "Suzuki",
+                            "modelo": "Vitara"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 136,
+                "nombre_juzgado": "Segundo juzgado de Quillota",
+                "multas": [
+                    {
+                        "nro_multa": 1071,
+                        "direccion": "Pablo Neruda # 6288",
+                        "fecha": "24-12-2020",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "KGXJ93",
+                            "marca": "Chevrolet",
+                            "modelo": "Spin"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1072,
+                        "direccion": "Av Transversal # 7371",
+                        "fecha": "13-9-2020",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "RVYP34",
+                            "marca": "Hyundai",
+                            "modelo": "Tucson"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 19,
+        "comuna": "Consitucion",
+        "juzgados": [
+            {
+                "id_juzgado": 137,
+                "nombre_juzgado": "Primer juzgado de Consitucion",
+                "multas": [
+                    {
+                        "nro_multa": 1073,
+                        "direccion": "Gabriela Mistral # 6134",
+                        "fecha": "5-10-2022",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "DERM42",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1074,
+                        "direccion": "Gabriela Mistral # 4162",
+                        "fecha": "22-3-2022",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "IKVQ56",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 138,
+                "nombre_juzgado": "Segundo juzgado de Consitucion",
+                "multas": [
+                    {
+                        "nro_multa": 1075,
+                        "direccion": "Manuel Blanco Encalada # 409",
+                        "fecha": "19-9-2021",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "OTIT42",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1076,
+                        "direccion": "Av Daigonal # 1145",
+                        "fecha": "29-12-2021",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "XPQF04",
+                            "marca": "Suzuki",
+                            "modelo": "Vitara"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 20,
+        "comuna": "Talca",
+        "juzgados": [
+            {
+                "id_juzgado": 139,
+                "nombre_juzgado": "Primer juzgado de Talca",
+                "multas": [
+                    {
+                        "nro_multa": 1077,
+                        "direccion": "Jose Miguel Carrera # 5838",
+                        "fecha": "26-11-2020",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "ZWFB55",
+                            "marca": "Suzuki",
+                            "modelo": "S-Presso"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1078,
+                        "direccion": "Pablo Neruda # 9572",
+                        "fecha": "23-2-2022",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "QMYE20",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 140,
+                "nombre_juzgado": "Segundo juzgado de Talca",
+                "multas": [
+                    {
+                        "nro_multa": 1079,
+                        "direccion": "Luis Barros Borgoño # 9202",
+                        "fecha": "24-8-2022",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "LKHN76",
+                            "marca": "Suzuki",
+                            "modelo": "Vitara"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1080,
+                        "direccion": "Av Longitudinal # 4295",
+                        "fecha": "1-9-2020",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "HXFN38",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 21,
+        "comuna": "Villarica",
+        "juzgados": [
+            {
+                "id_juzgado": 141,
+                "nombre_juzgado": "Primer juzgado de Villarica",
+                "multas": [
+                    {
+                        "nro_multa": 1081,
+                        "direccion": "Bernardo O'Higgins # 8237",
+                        "fecha": "31-1-2021",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "DVUE40",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1082,
+                        "direccion": "Jose Miguel Carrera # 6093",
+                        "fecha": "23-2-2021",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "EAGL20",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 142,
+                "nombre_juzgado": "Segundo juzgado de Villarica",
+                "multas": [
+                    {
+                        "nro_multa": 1083,
+                        "direccion": "Joaquín Prieto # 7949",
+                        "fecha": "5-11-2021",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "GFJI39",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1084,
+                        "direccion": "José Manuel Balmaceda # 2110",
+                        "fecha": "13-12-2020",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "GOQX53",
+                            "marca": "Hyundai",
+                            "modelo": "Santa Fe"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 22,
+        "comuna": "Temuco",
+        "juzgados": [
+            {
+                "id_juzgado": 143,
+                "nombre_juzgado": "Primer juzgado de Temuco",
+                "multas": [
+                    {
+                        "nro_multa": 1085,
+                        "direccion": "Bernardo O'Higgins # 8201",
+                        "fecha": "31-12-2021",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "DWUW10",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1086,
+                        "direccion": "Bernardo O'Higgins # 3984",
+                        "fecha": "12-3-2021",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "GFMX66",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 144,
+                "nombre_juzgado": "Segundo juzgado de Temuco",
+                "multas": [
+                    {
+                        "nro_multa": 1087,
+                        "direccion": "Av Longitudinal # 5512",
+                        "fecha": "12-5-2020",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "KZJI90",
+                            "marca": "Hyundai",
+                            "modelo": "Santa Fe"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1088,
+                        "direccion": "Arturo Prat # 8384",
+                        "fecha": "17-10-2021",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "HWFG99",
+                            "marca": "Suzuki",
+                            "modelo": "Vitara"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 23,
+        "comuna": "Pucon",
+        "juzgados": [
+            {
+                "id_juzgado": 145,
+                "nombre_juzgado": "Primer juzgado de Pucon",
+                "multas": [
+                    {
+                        "nro_multa": 1089,
+                        "direccion": "Bernardo O'Higgins # 9874",
+                        "fecha": "28-12-2022",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "WTBJ43",
+                            "marca": "Suzuki",
+                            "modelo": "Vitara"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1090,
+                        "direccion": "José Manuel Balmaceda # 8401",
+                        "fecha": "5-2-2020",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "NKDA56",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 146,
+                "nombre_juzgado": "Segundo juzgado de Pucon",
+                "multas": [
+                    {
+                        "nro_multa": 1091,
+                        "direccion": "Manuel Bulnes # 7561",
+                        "fecha": "4-10-2022",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "XJMA99",
+                            "marca": "Hyundai",
+                            "modelo": "Tucson"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1092,
+                        "direccion": "Manuel Bulnes # 1601",
+                        "fecha": "18-10-2021",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "UKFZ11",
+                            "marca": "Chevrolet",
+                            "modelo": "Spin"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 24,
+        "comuna": "Frutillar",
+        "juzgados": [
+            {
+                "id_juzgado": 147,
+                "nombre_juzgado": "Primer juzgado de Frutillar",
+                "multas": [
+                    {
+                        "nro_multa": 1093,
+                        "direccion": "Gabriela Mistral # 3562",
+                        "fecha": "29-5-2020",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "JXOS12",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1094,
+                        "direccion": "Av Transversal # 7112",
+                        "fecha": "12-4-2021",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "QOBB31",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 148,
+                "nombre_juzgado": "Segundo juzgado de Frutillar",
+                "multas": [
+                    {
+                        "nro_multa": 1095,
+                        "direccion": "Manuel Blanco Encalada # 2968",
+                        "fecha": "20-10-2022",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "BZAJ22",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1096,
+                        "direccion": "Av Longitudinal # 8878",
+                        "fecha": "13-2-2020",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "HHXX07",
+                            "marca": "Hyundai",
+                            "modelo": "Santa Fe"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 25,
+        "comuna": "Talcahuano",
+        "juzgados": [
+            {
+                "id_juzgado": 149,
+                "nombre_juzgado": "Primer juzgado de Talcahuano",
+                "multas": [
+                    {
+                        "nro_multa": 1097,
+                        "direccion": "Jose Miguel Carrera # 7587",
+                        "fecha": "20-5-2021",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "AOYS81",
+                            "marca": "Hyundai",
+                            "modelo": "Santa Fe"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1098,
+                        "direccion": "Manuel Bulnes # 2753",
+                        "fecha": "23-1-2020",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "FVOB62",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 150,
+                "nombre_juzgado": "Segundo juzgado de Talcahuano",
+                "multas": [
+                    {
+                        "nro_multa": 1099,
+                        "direccion": "Manuel Bulnes # 8494",
+                        "fecha": "1-5-2022",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "GFNK68",
+                            "marca": "Suzuki",
+                            "modelo": "S-Presso"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1100,
+                        "direccion": "Manuel Blanco Encalada # 1053",
+                        "fecha": "17-10-2021",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "MMGW68",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 26,
+        "comuna": "Chiguayante",
+        "juzgados": [
+            {
+                "id_juzgado": 151,
+                "nombre_juzgado": "Primer juzgado de Chiguayante",
+                "multas": [
+                    {
+                        "nro_multa": 1101,
+                        "direccion": "Gabriela Mistral # 6469",
+                        "fecha": "4-12-2020",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "DBAO73",
+                            "marca": "Suzuki",
+                            "modelo": "Vitara"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1102,
+                        "direccion": "Pablo Neruda # 1794",
+                        "fecha": "18-7-2021",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "OQZG04",
+                            "marca": "Hyundai",
+                            "modelo": "Santa Fe"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 152,
+                "nombre_juzgado": "Segundo juzgado de Chiguayante",
+                "multas": [
+                    {
+                        "nro_multa": 1103,
+                        "direccion": "Manuel Blanco Encalada # 6100",
+                        "fecha": "4-2-2022",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "CYBL91",
+                            "marca": "Hyundai",
+                            "modelo": "Tucson"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1104,
+                        "direccion": "Manuel Blanco Encalada # 8891",
+                        "fecha": "4-9-2022",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "FXWI14",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 27,
+        "comuna": "Los Angeles",
+        "juzgados": [
+            {
+                "id_juzgado": 153,
+                "nombre_juzgado": "Primer juzgado de Los Angeles",
+                "multas": [
+                    {
+                        "nro_multa": 1105,
+                        "direccion": "Vicente Huidobro # 2732",
+                        "fecha": "10-3-2022",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "FQEJ53",
+                            "marca": "Suzuki",
+                            "modelo": "S-Presso"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1106,
+                        "direccion": "Joaquín Prieto # 2647",
+                        "fecha": "3-4-2022",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "UTZE80",
+                            "marca": "Suzuki",
+                            "modelo": "Vitara"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 154,
+                "nombre_juzgado": "Segundo juzgado de Los Angeles",
+                "multas": [
+                    {
+                        "nro_multa": 1107,
+                        "direccion": "Arturo Prat # 1253",
+                        "fecha": "3-8-2021",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "IRKF21",
+                            "marca": "Hyundai",
+                            "modelo": "Santa Fe"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1108,
+                        "direccion": "Manuel Bulnes # 5725",
+                        "fecha": "25-7-2020",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "EWDJ76",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 28,
+        "comuna": "Lota",
+        "juzgados": [
+            {
+                "id_juzgado": 155,
+                "nombre_juzgado": "Primer juzgado de Lota",
+                "multas": [
+                    {
+                        "nro_multa": 1109,
+                        "direccion": "Pablo Neruda # 5345",
+                        "fecha": "7-12-2021",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "KXKS42",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1110,
+                        "direccion": "Pablo Neruda # 6237",
+                        "fecha": "21-11-2022",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "QITP87",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 156,
+                "nombre_juzgado": "Segundo juzgado de Lota",
+                "multas": [
+                    {
+                        "nro_multa": 1111,
+                        "direccion": "Av Longitudinal # 550",
+                        "fecha": "7-7-2022",
+                        "infracion": "Conduccion con restricion vehicular",
+                        "vehiculo": {
+                            "patente": "RTYO56",
+                            "marca": "Hyundai",
+                            "modelo": "Tucson"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1112,
+                        "direccion": "Bernardo O'Higgins # 9510",
+                        "fecha": "14-5-2021",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "BLMQ67",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 29,
+        "comuna": "Concepcion",
+        "juzgados": [
+            {
+                "id_juzgado": 157,
+                "nombre_juzgado": "Primer juzgado de Concepcion",
+                "multas": [
+                    {
+                        "nro_multa": 1113,
+                        "direccion": "Vicente Huidobro # 965",
+                        "fecha": "11-5-2022",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "WMVK65",
+                            "marca": "Chevrolet",
+                            "modelo": "Captiva"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1114,
+                        "direccion": "Pedro Aguirre Cerda # 2907",
+                        "fecha": "5-11-2020",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "YNXH48",
+                            "marca": "Chevrolet",
+                            "modelo": "Colorado"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 158,
+                "nombre_juzgado": "Segundo juzgado de Concepcion",
+                "multas": [
+                    {
+                        "nro_multa": 1115,
+                        "direccion": "Jose Miguel Carrera # 8825",
+                        "fecha": "20-11-2020",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "NKTE53",
+                            "marca": "Suzuki",
+                            "modelo": "Vitara"
+                        },
+                        "insepctor": {
+                            "id_inspector": 5,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13525554-4",
+                                "nombre": "Roberto Carlos Carrera Lopez",
+                                "sexo": "Masculino",
+                                "correo": "rccl@gamil.com",
+                                "fecha_nacimiento": "20-01-1989",
+                                "telefono": 902047755
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1116,
+                        "direccion": "Joaquín Prieto # 9590",
+                        "fecha": "2-4-2020",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "WXHW69",
+                            "marca": "Suzuki",
+                            "modelo": "S-Presso"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id_municipalidad": 30,
+        "comuna": "Chillan",
+        "juzgados": [
+            {
+                "id_juzgado": 159,
+                "nombre_juzgado": "Primer juzgado de Chillan",
+                "multas": [
+                    {
+                        "nro_multa": 1117,
+                        "direccion": "Luis Barros Borgoño # 8214",
+                        "fecha": "5-3-2021",
+                        "infracion": "Uso de via exclusiva",
+                        "vehiculo": {
+                            "patente": "BVNB55",
+                            "marca": "Chevrolet",
+                            "modelo": "Spin"
+                        },
+                        "insepctor": {
+                            "id_inspector": 4,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13025753-3",
+                                "nombre": "Valentina Macarena Valdez Zuniga",
+                                "sexo": "Femenino",
+                                "correo": "vmvz@gamil.com",
+                                "fecha_nacimiento": "03-12-1990",
+                                "telefono": 945786301
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1118,
+                        "direccion": "Joaquín Prieto # 7776",
+                        "fecha": "30-12-2022",
+                        "infracion": "Estacionamiento en zona demarcada",
+                        "vehiculo": {
+                            "patente": "FYFG59",
+                            "marca": "Chevrolet",
+                            "modelo": "Orlando"
+                        },
+                        "insepctor": {
+                            "id_inspector": 3,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520630-2",
+                                "nombre": "Marcos Antonio Fernandez Ilabaca",
+                                "sexo": "Masculino",
+                                "correo": "mafi@gamil.com",
+                                "fecha_nacimiento": "20-02-1986",
+                                "telefono": 952624540
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "id_juzgado": 160,
+                "nombre_juzgado": "Segundo juzgado de Chillan",
+                "multas": [
+                    {
+                        "nro_multa": 1119,
+                        "direccion": "Pablo Neruda # 8603",
+                        "fecha": "28-11-2020",
+                        "infracion": "Doblar en viraje no habilitado",
+                        "vehiculo": {
+                            "patente": "HHHM06",
+                            "marca": "Suzuki",
+                            "modelo": "Gran Nomade"
+                        },
+                        "insepctor": {
+                            "id_inspector": 1,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13520500-K",
+                                "nombre": "Felipe Andres Soto Diaz",
+                                "sexo": "Masculino",
+                                "correo": "fasd@gamil.com",
+                                "fecha_nacimiento": "14-10-1985",
+                                "telefono": 97854053
+                            }
+                        }
+                    },
+                    {
+                        "nro_multa": 1120,
+                        "direccion": "Gabriela Mistral # 435",
+                        "fecha": "19-10-2022",
+                        "infracion": "Exceso de velocidad ",
+                        "vehiculo": {
+                            "patente": "PGET44",
+                            "marca": "Suzuki",
+                            "modelo": "S-Presso"
+                        },
+                        "insepctor": {
+                            "id_inspector": 2,
+                            "fecha_ingreso": "12-06-1996",
+                            "funcionario_municipal": {
+                                "rut": "13456963-1",
+                                "nombre": "Sofia Andrea Roman Valdez",
+                                "sexo": "Femenino",
+                                "correo": "sarv@gamil.com",
+                                "fecha_nacimiento": "14-03-1986",
+                                "telefono": 945289561
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

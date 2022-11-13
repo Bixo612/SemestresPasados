@@ -1,0 +1,53 @@
+db.registros 
+    municipalidades                         
+        juzagado
+            multas
+                vehiculo.txt
+                inspector.txt
+
+municipalidades:[
+    juzagados:[
+        multas:[
+            vehiculo{},
+            inspector:{
+                fucionario:{}
+            }
+        ]
+    ]
+]
+
+c:\registros\municipalidades\juzagado\multas\vehiculo.txt
+
+eso es
+
+db.registos.find({"municipalidades.juzagado.multas.vehiculo.patente":"HCDK86"})
+
+db.municipalidades.find({"juzgados.multas.valor_infracion":{$gt:50000}})
+
+
+servidor(nombre,ubicacion)
+    usuario(id,nickname,nombre,correo,nacimiento,alta,pais)
+        videos(archivo,titulo,publicacion,visibilidad,restricion,genero,likes,dislikes,visitas)
+        canciones(archivo,titulo,genero,repirduciones)
+        moderador(direccion,idnacional,datosBancarios,tipoModerador)
+
+servidores[
+    {
+        nombre: "nombre",
+        ubicacion: "ubicacion",
+        usuarios: [
+            {
+                id: 1,
+                nickname: "nickname",
+                nombre: "nombre",
+                correo: "correo",
+                nacimiento: "nacimiento",
+                alta: "alta",
+                pais: "pais",
+                videos: [],
+                canciones: [],
+                moderador: {}
+            }
+        ]
+    }
+]

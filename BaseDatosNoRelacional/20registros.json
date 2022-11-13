@@ -1,0 +1,146 @@
+[
+    {
+        "nombre": "Santiago",
+        "ubicacion": "Santiago",
+        "usuarios": [
+            {
+                "_id": 1,
+                "nickname": "masm13",
+                "nombre": "Marco Andres Soto Muñoz",
+                "correo": "masm13@gmail.com",
+                "fechaNacimiento": new Date("1996,16,12"),
+                "fechaAlta": new Date("2010,16,12"),
+                "pais": "Chile",
+                "videos": [
+                    {
+                        "archivo": "archivo",
+                        "titulo": "Tutorial py 01",
+                        "fechaPublicacion": new Date("2010,12,12"),
+                        "visibil_idad": "Publico",
+                        "restriccion": "TE",
+                        "genero": "Educativo",
+                        "likes": 15,
+                        "dislikes": 5,
+                        "visitas": 30
+                    }
+                ],
+                "canciones": [
+                    {
+                        "archivo": "archivo",
+                        "titulo": "Never gona give yo up",
+                        "genero": "Pop",
+                        "reproducciones": 50
+                    }
+                ],
+                "moderador": {
+                    "direccion": "Isla guafo 1314",
+                    "_idNacional": "13123123-K",
+                    "nroCta": 456789753,
+                    "tipoCta": "Corriente",
+                    "nombreBanco": "Banco Estado",
+                    "tipoModerador": "Moderador superior"
+                }
+            },
+            {
+                "_id": 4,
+                "nickname": "sasm77",
+                "nombre": "Samuel Andres Soto Muñoz",
+                "correo": "sasm77@gmail.com",
+                "fechaNacimiento": new Date("1996,16,12"),
+                "fechaAlta": new Date("2010,16,12"),
+                "pais": "Chile",
+                "canciones": [
+                    {
+                        "archivo": "archivo",
+                        "titulo": "Never gona give yo up",
+                        "genero": "Pop",
+                        "reproducciones": 50
+                    }
+                ],
+                "moderador": {
+                    "direccion": "Isla guafo 1314",
+                    "_idNacional": "13123123-K",
+                    "nroCta": 753159850,
+                    "tipoCta": "Corriente",
+                    "nombreBanco": "Banco de Chile",
+                    "tipoModerador": "Moderarod normal"
+                }
+            }
+        ]
+    },
+    {
+        "nombre": "Buenos Aires",
+        "ubicacion": "Buenos Aires",
+        "usuarios": [
+            {
+                "_id": 2,
+                "nickname": "jahm14",
+                "nombre": "Javier Andres Herrera Montentenegro",
+                "correo": "jahm14@gmail.com",
+                "fechaNacimiento": new Date("1996,16,12"),
+                "fechaAlta": new Date("2010,16,12"),
+                "pais": "Argentina",
+                "videos": [
+                    {
+                        "archivo": "archivo",
+                        "titulo": "Tour por Italia",
+                        "fechaPublicacion": new Date("2009,12,12"),
+                        "visibil_idad": "Publico",
+                        "restriccion": "TE",
+                        "genero": "Turismo",
+                        "likes": 15,
+                        "dislikes": 5,
+                        "visitas": 30
+                    }
+                ],
+                "canciones": [
+                    {
+                        "archivo": "archivo",
+                        "titulo": "I wan to break free",
+                        "genero": "Pop",
+                        "reproducciones": 50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "nombre": "Rio de Janeiro",
+        "ubicacion": "Rio de Janeiro",
+        "usuarios": [
+            {
+                "_id": 3,
+                "nickname": "sasv99",
+                "nombre": "Sofia Andra Soto Vergara",
+                "correo": "sasv99@gmail.com",
+                "fechaNacimiento": new Date("1996,16,12"),
+                "fechaAlta": new Date("2010,16,12"),
+                "pais": "Brasil",
+                "videos": [
+                    {
+                        "archivo": "archivo",
+                        "titulo": "Tour por Francia",
+                        "fechaPublicacion": new Date("2010,12,12"),
+                        "visibil_idad": "Publico",
+                        "restriccion": "TE",
+                        "genero": "Turismo",
+                        "likes": 15,
+                        "dislikes": 5,
+                        "visitas": 30
+                    },
+                    {
+                        "archivo": "archivo",
+                        "titulo": "Tour por Amsterdam",
+                        "fechaPublicacion": new Date("2010,12,12"),
+                        "visibil_idad": "Publico",
+                        "restriccion": "+18",
+                        "genero": "Turismo",
+                        "likes": 20,
+                        "dislikes": 10,
+                        "visitas": 40
+                    }
+                ]
+            }
+        ]
+    }
+]

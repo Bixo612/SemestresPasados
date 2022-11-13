@@ -1,0 +1,122 @@
+[
+    {
+        "rut":"14.048.959-2",
+        "nombre":"Juan Igancio Perez Balboa",
+        "direccion":"Simon Bolivar 6544",
+        "fechaNacimiento": new Date("12-09-1980"),
+        "comuna":"Ñuñoa",
+        "correoElectronico":"jperez@xmail.com"
+    },
+    {
+        "rut":"12.937.506-7",
+        "nombre":"Diego Marcelo Herrera Quinan",
+        "direccion":"Maria Dolores 1887",
+        "fechaNacimiento": new Date("13-06-1970"),
+        "comuna":"Nacimiento",
+        "correoElectronico":"dherrera@xmail.com"
+    },
+    {
+        "rut":"17.018.376-1",
+        "nombre":"Marcela Daniela Pinzon Gonzalez",
+        "direccion":"Bernardo Ohiggins 788",
+        "fechaNacimiento": new Date("01-01-1990"),
+        "comuna":"Frutillar",
+        "correoElectronico":"mpinzon@xmail.com"
+    },
+    {
+        "rut":"15.028.900-1",
+        "nombre":"Francisco Javier Gomez Carreño",
+        "direccion":"Irarrazaval 5677",
+        "fechaNacimiento": new Date("26-04-1983"),
+        "comuna":"Ñuñoa",
+        "correoElectronico":"fgomez@xmail.com"
+    },
+    {
+        "rut":"16.772.456-9",
+        "nombre":"Camila Andrea Flores Cueto",
+        "direccion":"Colombia 4566",
+        "fechaNacimiento": new Date("30-10-1986"),
+        "comuna":"La Florida",
+        "correoElectronico":"cflores@xmail.com"
+    },
+    {
+        "rut":"12.189.599-5",
+        "nombre":"Andres Daniel Sanchez Quezada",
+        "direccion":"Camilo Henriquez 2833",
+        "fechaNacimiento": new Date("01-02-1970"),
+        "comuna":"Puente Alto",
+        "correoElectronico":"asanchez@xmail.com"
+    },
+    {
+        "rut":"19.045.591-0",
+        "nombre":"Marco Ivan Miranda Guerra",
+        "direccion":"Rojas Magallanes 4501",
+        "fechaNacimiento": new Date("04-05-2002"),
+        "comuna":"La Florida",
+        "correoElectronico":"mmiranda@xmail.com"
+    },
+    {
+        "rut":"14.056.122-1",
+        "nombre":"Jaime Alberto Jara Rincon",
+        "direccion":"Larrain 6778",
+        "fechaNacimiento": new Date("25-11-1981"),
+        "comuna":"La Reina",
+        "correoElectronico":""
+    },
+    {
+        "rut":"21.432.948-4",
+        "nombre":"Jimena Maura Correa Pizarro",
+        "direccion":"Alcantara 4857",
+        "fechaNacimiento": new Date("01-05-2002"),
+        "comuna":"Las Condes",
+        "correoElectronico":"jcorrea@xmail.com"
+    },
+    {
+        "rut":"16.888.465-4",
+        "nombre":"Carmen Andrea Jimenez Urrutia",
+        "direccion":"Laura Rodriguez 278",
+        "fechaNacimiento": new Date("14-09-1986"),
+        "comuna":"La Reina",
+        "correoElectronico":"cjimenez@xmail.com"
+    },
+    {
+        "rut":"23.453.677-2",
+        "nombre":"Rodrigo Jorge Treuquemil Inostroza",
+        "direccion":"Vicuña Mackena 5786 dep 102",
+        "fechaNacimiento": new Date("27-06-2003"),
+        "comuna":"Macul",
+        "correoElectronico":"rtreuquemil@xmail.com"
+    },
+    {
+        "rut":"20.456.677-K",
+        "nombre":"Omar Felipe Diaz Diaz",
+        "direccion":"Vicuña Mackena 4263 dep 109",
+        "fechaNacimiento": new Date("02-06-2000"),
+        "comuna":"La Cisterna",
+        "correoElectronico":"ofdiaz@xmail.com"
+    },
+    {
+        "rut":"19.360.397-1",
+        "nombre":"Vicente Ignacio Vasquez Galvez",
+        "direccion":"Pedro Nuñez Fernandez 1641 casa 35",
+        "fechaNacimiento": new Date("12-06-1996"),
+        "comuna":"Valdivia",
+        "correoElectronico":"vvasquez@xmail.com"
+    },
+    {
+        "rut":"19.750.000-1",
+        "nombre":"Joaquin Pedro Soto Galvez",
+        "direccion":"Diagonal 7530",
+        "fechaNacimiento": new Date("12-09-1996"),
+        "comuna":"Valdivia",
+        "correoElectronico":"jsoto@xmail.com"
+    },
+    {
+        "rut":"18.563.621",
+        "nombre":"Sofia Andrea Guzman Tapia",
+        "direccion":"Dorsal 123 dep 42",
+        "fechaNacimiento": new Date("27-06-2003"),
+        "comuna":"Osorno",
+        "correoElectronico":"saduzta@xmail.com"
+    }
+]

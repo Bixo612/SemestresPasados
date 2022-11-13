@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Vicente Vasquez Galvez-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="img/luthierportada.jpg" width="1000px">
+            <div class="centered">La cabaña del luthier</div>
+        </div>
+    </header>
+    <!---->
+    <nav>
+        <a href="portada.html">Portada</a> |
+        <a href="equipo.html">Equipo</a> |
+        <a href="galeria.html">Galería</a> |
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <!---->
+    <section>
+        <table id="tablacontacto">
+            <tr>
+                <th id="formulariocontacto">
+                    <article id="formulario">
+                        <h2>Contáctanos</h2>
+                        <form>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td><label for="nombre">Nombre</label></td>
+                                        <td><input type="text" name="nombre" required class="input"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="correo">Correo</label></td>
+                                        <td> <input type="email" name="correo" required class="input"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <label for="fecha">Fecha de nacimiento</label>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <input type="date" name="fecha">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="region">Región</label>
+                                        </td>
+                                        <td>
+                                            <select name="region">
+                                                <option value="Metropolitana">Metropolitana de Santiago</option>
+                                                <option value="Valparaíso">Valparaíso</option>
+                                                <option value="O'Higgins">Libertador General Bernardo O'Higgins</option>
+                                                <option value="Otra">Otra</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="mensaje">Mensaje</label></td>
+                                        <td> <textarea name="mensaje" rows="4" cols="32" required></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td id="tdbotones"> <button type="reset">Borrar</button>&nbsp;
+                                            <button type="submit">Enviar</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                    </article>
+                    <br>
+                    <div>
+
+                        <a href="#"><img src="img/twiter.png" width="50px" height="50px"></a>
+                        <a href="#"><img src="img/face.png" width="50px" height="50px"></a>
+                        <a href="#"><img src="img/insta.png" width="50px" height="50px"></a>
+                        <a href="#"><img src="img/spoty.png" width="50px" height="50px"></a>
+
+                    </div>
+
+                </th>
+                <!---->
+                <th>
+                    <article>
+                        <h2>Encuentranos</h2>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.413704036621!2d-70.63953688450172!3d-33.438526680777485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c59b80d1dd5d%3A0xee690556eeab3070!2sAv%20Libertador%20Bernardo%20O&#39;Higgins%20142%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1649617587823!5m2!1ses!2scl"
+                            width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <ul>
+                            <li>Avenida Libertador Bernardo O'Higgins, Santiago 142</li>
+                            <li>contacto@casaluthier.cl</li>
+                            <li>9-57894251</li>
+                        </ul>
+
+                    </article>
+                </th>
+            </tr>
+        </table>
+    </section>
+    <!---->
+    <footer>
+        <p class="fot">©La cabaña del luthier 2022 </p>
+    </footer>
+
+</body>
+<!--Vicente Vasquez Galvez-->
+
+</html>

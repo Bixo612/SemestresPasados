@@ -1,0 +1,18 @@
+p{
+    color: rgb(129, 126, 126);
+     text-decoration: none;
+}
+
+#letra{
+    color:#585350;
+    text-decoration:none;
+}
+
+a:hover{
+    color:red ;
+}
+
+#titulos{
+    color:#000000;
+    text-decoration:none;
+}

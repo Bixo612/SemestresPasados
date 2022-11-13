@@ -1,0 +1,119 @@
+[
+    {
+        "marca": "Ford",
+        "modelo": "Mustang",
+        "anio": 1968,
+        "patente": "GD7815",
+        "color":"Azul",
+        "kilometraje":90851,
+        "precio":15000000
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "C10",
+        "anio": 1968,
+        "patente": "FT9865",
+        "color":"Celeste",
+        "kilometraje":82572,
+        "precio":12000000
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "El Camino SS",
+        "anio": 1970,
+        "patente": "GA1254",
+        "color":"Rojo",
+        "kilometraje":95001,
+        "precio":11000000
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "El Camino SS",
+        "anio": 1970,
+        "patente": "FT9042",
+        "color":"Negro",
+        "kilometraje":102031,
+        "precio":13000000
+    },
+    {
+        "marca": "Dodge",
+        "modelo": "Dart",
+        "anio": 1970,
+        "patente": "HU6510",
+        "color":"Naranjo",
+        "kilometraje":78053,
+        "precio":10000000
+    },
+    {
+        "marca": "Dodge",
+        "modelo": "Challeger",
+        "anio": 1970,
+        "patente": "GA7896",
+        "color":"Verde",
+        "kilometraje":88620,
+        "precio":15000000
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "AE86",
+        "anio": 1983,
+        "patente": "GD7862",
+        "color":"Gris",
+        "kilometraje":89753,
+        "precio":15000000
+    },
+    {
+        "marca": "Nissan",
+        "modelo": "Skyline",
+        "anio": 1972,
+        "patente": "HT7452",
+        "color":"Gris",
+        "kilometraje":105996,
+        "precio":16000000
+    },
+    {
+        "marca": "Ford",
+        "modelo": "Bronco",
+        "anio": 1985,
+        "patente": "RT7532",
+        "color":"Negro",
+        "kilometraje":109053,
+        "precio":17000000
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Impala",
+        "anio": 1967,
+        "patente": "CQ5623",
+        "color":"Azul",
+        "kilometraje":89501,
+        "precio":19000000
+    },
+    {
+        "marca": "Cadillac",
+        "modelo": "Eldorado",
+        "anio": 1976,
+        "patente": "H59630",
+        "color":"Rojo",
+        "kilometraje":90006,
+        "precio":20000000
+    },
+    {
+        "marca": "Datsun",
+        "modelo": "240Z",
+        "anio": 1972,
+        "patente": "FO8200",
+        "color":"Blanco",
+        "kilometraje":88122,
+        "precio":21000000
+    },
+    {
+        "marca": "Dodge",
+        "modelo": "Charger",
+        "anio": 1969,
+        "patente": "GL0101",
+        "color":"Naranjo",
+        "kilometraje":105631,
+        "precio":20000000
+    }
+]

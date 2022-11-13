@@ -1,0 +1,26 @@
+
+{
+    "argonautas": [
+      {
+        "nombre": "Tulio",
+        "cargo": "Guerrero",
+        "edad": 55
+      },
+      {
+        "nombre": "Bodoque",
+        "cargo": "Navegante",
+        "edad": 27
+      },
+      {
+        "nombre": "Juanin",
+        "cargo": "Arcadio",
+        "edad": 42
+      },
+      {
+        "nombre": "Mario Hugo",
+        "cargo": "Cocinero",
+        "edad": 17
+      }
+    ]
+  }
+  

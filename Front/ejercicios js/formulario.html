@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <script type="text/javascript">
+        function validar() {
+            var codigo = document.formulario.txt_codigo.value;
+            // var producto = document.formulario.select_producto.value;
+            // var pais = document.formulario.txt_pais.value;
+            // var precio = document.formulario.txt_precio.value;
+            // var dimensiones = document.formulario.txt_dimensiones.value;
+            var tienda = document.formulario.num_tienda.value;
+            // var descripción = document.formulario.txa_descripcion.value;
+            // var ingreso = document.formulario.date_ingreso.value;
+            
+            if ((codigo.charAt(0) != 'A' && codigo.charAt(0) != 'X' && codigo.charAt(0) != 'H') || codigo.length != 7) {
+                alert("El codigo debe comenzar con A, H o X mayuscula y contener 7 caracteres");
+                return false;
+            }
+            if (parseInt(tienda) < 1 || parseInt(tienda) > 7) {
+                alert("Debe ingresar un numero entre 1 y 7");
+                document.formulario.num_tienda.focus();
+                return false;
+            }
+            alert ("Eureka :D")
+        }
+    </script>
+    <form action="#" name="formulario" id="formulario" method="post">
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-xs-12 col-sm-6">
+                <h2>Formulario Ingreso de productos</h2>
+                <label for="txt_codigo">Codigo de producto</label>
+                <input type="text" class="form-control" name="txt_codigo" id="txt_codigo" placeholder="A129292883">
+                <!---->
+                <label for="select_producto">Producto</label>
+                <select class="form-select" name="select_producto" id="select_producto">
+                    <option value="" disabled></option>
+                    <option value="1">Pintura Latex</option>
+                    <option value="2">Pintura Al agua</option>
+                    <option value="3">Pintura Acrilica</option>
+                </select>
+                <!---->
+                <label for="txt_pais">Pais procedencia</label>
+                <input type="text" class="form-control" name="txt_pais" id="txt_pais" placeholder="Chile">
+                <!---->
+                <label for="txt_precio">Precio</label>
+                <input type="text" class="form-control" name="txt_precio" id="txt_precio" placeholder="1200">
+                <!---->
+                <label for="txt_dimensiones">Diemnsiones en cms</label>
+                <input type="text" class="form-control" name="txt_dimensiones" id="txt_dimensiones" placeholder="79X30">
+                <!---->
+                <label for="num_tienda">Número de tienda</label>
+                <input type="number" class="form-control" name="num_tienda" id="num_tienda" placeholder="1 a 7">
+                <!---->
+                <label for="txa_descripcion">Descripción</label>
+                <textarea class="form-control" name="txa_descripcion" id="txa_descripcion" cols="10"
+                    rows="5"></textarea>
+                <!---->
+                <label for="date_ingreso">Fecha de ingreso</label>
+                <input type="date" class="form-control" name="date_ingreso" id="date_ingreso">
+
+                <!---->
+            </div>
+            <div class="col-xs-12">
+                <input type="button" class="btn btn-primary" value="Guardar Producto"
+                    onclick="javascript:void(validar())">
+                <input type="reset" class="btn btn-danger" value="Limpiar">
+
+            </div>
+        </div>
+    </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

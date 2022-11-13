@@ -1,0 +1,21 @@
+tarea bd
+
+1-muestre las facturas entre la 7 y la 23
+db.facturas.find({nroFactura : {$gt : 6,$lt : 24}})
+
+2-muestra las facturas cuyo iva final sea menos a 1000
+db.facturas.find({iva: {$lt : 1000}})
+
+3-muestre las facturas cuyo total sea mayor a 40.000 y menor a 100.000
+db.facturas.find({valorTotal : {$gt : 40000,$lt : 100000}})
+
+4-muestre todas las facturas cuyo total neto sea mayor a 7000
+db.facturas.find({totalNeto: {$gt : 7000}})
+
+5-muestre todas las facturas en las que se vendieran una cantidad mayor a 5 productos iguales
+db.facturas.find({"productos.cantidad":{$gt:5}})
+
+6-muestre todas las facturas vendidas por el vendero codigo 1
+db.facturas.find({vendedor : {codVendedor: 1,nombreVendedor: 'Alan Soto'}})
+
+

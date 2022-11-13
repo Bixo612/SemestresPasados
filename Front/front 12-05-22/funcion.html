@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+    <script type="text/javascript">
+        //
+        function proceso() {
+            var num1 = document.formulario.txt_valor_a.value
+            var num2 = document.formulario.txt_valor_b.value
+            result = parseInt(num1) * parseInt(num2)
+            alert("la multiplicacion es "+result)
+        }
+    </script>
+    <form action="#" method="post" name="formulario">
+        Valor A
+        <input type="text" name="txt_valor_a"><br>
+        Valor B
+        <input type="text" name="txt_valor_b"><br>
+        <input type="button" value="calcular" onclick="javascript:void(proceso())">
+    </form>
+</body>
+
+</html>

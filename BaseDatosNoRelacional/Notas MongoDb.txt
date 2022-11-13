@@ -1,0 +1,280 @@
+
+	$and = buscar elementos que contengan dos o mas restriciones
+
+db.vehiculos.find(
+	{
+		$and:
+		[
+			{marca: 'Dodge'},
+			{color: 'Naranjo'}
+		]
+	}
+)
+
+	$or = buscar elementos donde se cumplan al menos una de las dos o mas restriciones
+
+db.vehiculos.find(
+	{
+		$or:
+		[
+			{marca: 'Chevrolet'},
+			{marca: 'Ford'}
+		]
+	}
+)
+
+	$lt =  buscar elemenos menor que
+
+db.vehiculos.find(
+	{precio: {$lt:15000000}}
+)
+
+	$gt = buscar elemenos mayor que 
+
+db.vehiculos.find(
+	{anio: {$gt:1980}}
+)
+
+	$regex = se utiliza para buscar coincidencias en cadenas de textos
+
+	la sigeute consulta muestra vehiculos con modelo que terminen en el caracter 'o'
+
+db.vehiculos.find(
+	{
+		modelo: {
+			$regex: /o$/
+		}
+	}
+)
+
+	la siguente consulta muesta vehiculos cuya patente comienze con el caracter 'H'
+		
+db.vehiculos.find(
+	{
+		patente: {
+			$regex: /^H/
+		}
+	}
+)
+
+	la siguente consulta muestra vehiculos que contengan un '0' en cualquier parte de la pantente
+	
+db.vehiculos.find(
+	{
+		patente: {
+			$regex: /0/
+		}
+	}
+)
+
+	puede combinarse con el $or para buscar un caracter ya sea mayuscula o minuscula
+	
+db.vehiculos.find(
+	{
+		$or :[
+			{modelo: {$regex: /l/}},
+			{modelo: {$regex: /L/}}
+		]
+	}
+)
+
+	.count() =  se usa para contar el total de resultados
+	
+db.vehiculos.find(
+	{
+		$and:
+		[
+			{anio: {$lt: 1980}},
+			{precio: {$gt: 15000000 }}
+		]
+	}
+).count()
+
+	.sort() = Se usa para ordenar los registros 
+	
+	de esta forma se muestran los registros ascenedente
+	
+db.vehiculos.find().sort("anio")
+
+	de esta forma es de manera descencedente 
+	
+db.vehiculos.find().sort({marca: -1})
+
+	$eq = significa igualdad se utiliza para buscar un atributo exacto
+	
+db.vehiculos.find(
+	{patente:
+		{$eq: "FT9865"}
+	}
+)
+
+	$not = es para mostrar todos los resultados que no coincidan con lo indicado por el nor
+	
+db.vehiculos.find(
+	{marca:
+		{$not:
+			{$eq: "Chevrolet"}
+		}
+	}
+)
+
+
+	$nor = mezcla entre el $not y $or, no muestra los elemento que no coincidan con las multiples atributos que indique el $nor
+
+db.vehiculos.find(
+	{$nor:
+		[
+			{marca: "Ford"},
+			{marca: "Chevrolet"},
+			{marca: "Dodge"}
+		]
+	}
+)
+
+db.vehiculos.find(
+	{$nor:
+		[
+			{precio: {$lt:20000000}},
+			{kilometraje: {$gt:90000}}
+		]
+	}
+)
+
+	deleteMany() = delete many se usa para eliminar multiples registros, si se desea eliminar la primera coincidencia se utiliza deleteOne()
+	
+db.vehiculos.deleteMany(
+	{marca: "Cadillac"}
+)
+
+	updateMany() = se utiliza para actualizar multiples registros
+	
+db.vehiculos.updateMany(
+	{$or:[
+		{marca:"Nissan"},
+		{modelo:"AE86"}
+	]},
+	{$set:{precio:25000000}}
+)
+
+
+_______________________________________________________________________________
+
+[
+    {
+        "marca": "Ford",
+        "modelo": "Mustang",
+        "anio": 1968,
+        "patente": "GD7815",
+        "color":"Azul",
+        "kilometraje":90851,
+        "precio":15000000
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "C10",
+        "anio": 1968,
+        "patente": "FT9865",
+        "color":"Celeste",
+        "kilometraje":82572,
+        "precio":12000000
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "El Camino SS",
+        "anio": 1970,
+        "patente": "GA1254",
+        "color":"Rojo",
+        "kilometraje":95001,
+        "precio":11000000
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "El Camino SS",
+        "anio": 1970,
+        "patente": "FT9042",
+        "color":"Negro",
+        "kilometraje":102031,
+        "precio":13000000
+    },
+    {
+        "marca": "Dodge",
+        "modelo": "Dart",
+        "anio": 1970,
+        "patente": "HU6510",
+        "color":"Naranjo",
+        "kilometraje":78053,
+        "precio":10000000
+    },
+    {
+        "marca": "Dodge",
+        "modelo": "Challeger",
+        "anio": 1970,
+        "patente": "GA7896",
+        "color":"Verde",
+        "kilometraje":88620,
+        "precio":15000000
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "AE86",
+        "anio": 1983,
+        "patente": "GD7862",
+        "color":"Gris",
+        "kilometraje":89753,
+        "precio":15000000
+    },
+    {
+        "marca": "Nissan",
+        "modelo": "Skyline",
+        "anio": 1972,
+        "patente": "HT7452",
+        "color":"Gris",
+        "kilometraje":105996,
+        "precio":16000000
+    },
+    {
+        "marca": "Ford",
+        "modelo": "Bronco",
+        "anio": 1985,
+        "patente": "RT7532",
+        "color":"Negro",
+        "kilometraje":109053,
+        "precio":17000000
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Impala",
+        "anio": 1967,
+        "patente": "CQ5623",
+        "color":"Azul",
+        "kilometraje":89501,
+        "precio":19000000
+    },
+    {
+        "marca": "Cadillac",
+        "modelo": "Eldorado",
+        "anio": 1976,
+        "patente": "H59630",
+        "color":"Rojo",
+        "kilometraje":90006,
+        "precio":20000000
+    },
+    {
+        "marca": "Datsun",
+        "modelo": "240Z",
+        "anio": 1972,
+        "patente": "FO8200",
+        "color":"Blanco",
+        "kilometraje":88122,
+        "precio":21000000
+    },
+    {
+        "marca": "Dodge",
+        "modelo": "Charger",
+        "anio": 1969,
+        "patente": "GL0101",
+        "color":"Naranjo",
+        "kilometraje":105631,
+        "precio":20000000
+    }
+]

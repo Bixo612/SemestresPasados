@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        // and = && // or = || 
+
+        function proceso(){
+            var ladoA = document.formulario.txt_lado_a.value
+            var ladoB = document.formulario.txt_lado_b.value
+            var ladoC = document.formulario.txt_lado_c.value
+
+            //Nota, parsear esto antes al definir las variables con parseFloat() 
+            //buscar extension tabnine
+
+            if (parseInt(ladoA) == parseInt(ladoB) && parseInt(ladoA) == parseInt(ladoC))
+            {
+                alert("Es un triangulo equilatero")
+            }
+            else if(parseInt(ladoA) != parseInt(ladoB) && (parseInt(ladoA) != (parseInt(ladoC) && (parseInt(ladoB) != (parseInt(ladoC))
+            {
+                alert("Es un triangulo escaleno")
+            }
+            else {
+                alert("Es un triangulo escaleno")
+            }
+
+
+        }
+
+    </script>
+    <form action="#" method="post" name="formulario">
+        lado A <input type="text" name="txt_lado_a"><br>
+        lado B <input type="text" name="txt_lado_b"><br>
+        lado C <input type="text" name="txt_lado_c"><br>
+        <input type="button" value="calcular" onclick="javascript:void(proceso())">
+    </form>
+</body>
+</html>

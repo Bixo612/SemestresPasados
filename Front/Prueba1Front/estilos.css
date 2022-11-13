@@ -1,0 +1,184 @@
+body {
+    background-color: coral;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+h1,
+h2,h3,
+p,
+a,
+label,
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+header {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+    font-size: 12;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    text-align: left;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+nav {
+    align-content: center;
+   
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article {
+    
+    margin-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    padding: 10px;
+}
+
+input,
+select,
+button,
+textarea {
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+label{
+    text-align: left;
+}
+
+/*clases*/
+
+.centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.fot{
+    text-align: center;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.parrafoportada {
+    width: 760px;
+}
+
+.imagenesportada {
+    width: 200px;
+    float: right;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.imagenesequipo {
+    float: left;
+    width: 200px;
+    border-radius: 50%;
+ 
+}
+
+.parrafoequipo {
+    padding-left: 225px;
+    margin-right: 25px;
+}
+
+.imggaleria {
+    height: 200px;
+}
+
+.imggaleria:hover {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.input {
+    width: 250px;
+}
+
+/*ids*/
+
+#tdinfder {
+    text-align: right;
+}
+
+#tdcentro {
+    text-align: center;
+}
+
+#tdinfcent {
+    padding-left: 10px;
+}
+
+#tdsupcent {
+    padding-right: 10px;
+}
+
+#formulariocontacto {
+    vertical-align: top;
+}
+
+#tablacontacto {
+    width: 100%;
+
+}
+
+#formulario {
+    text-align: left;
+    padding-right: 10px;
+}
+
+#tdbotones{
+    text-align:right;
+}

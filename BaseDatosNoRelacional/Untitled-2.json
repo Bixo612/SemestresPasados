@@ -1,0 +1,460 @@
+[
+    {
+        "tipo": "cancion",
+        "tituloCancion": "Drive",
+        "generoCancion": "Rock",
+        "reproducciones": 10000,
+        "usuario": {
+            "id": 1,
+            "nickname": "Yunan",
+            "nombreCompleto": "Yunan Six",
+            "correo": "ysix@gmail.com",
+            "fechaNacimiento": new Date("1980-09-12"),
+            "pais": "chile",
+            "moderador": {
+                "direccion": "Las torres 456",
+                "rut": "10388475-0",
+                "numCuenta": 749,
+                "tipoCuenta": "Corriente",
+                "nombreBanco": "Falabella",
+                "tipoModerador": "Super Moderador"
+            }
+        },
+        "servidor": {
+            "nombre": "Servidor1",
+            "ubicacion": "Chile"
+        }
+    },
+    {
+        "tipo": "cancion",
+        "tituloCancion": "Special",
+        "generoCancion": "Rock",
+        "reproducciones": 12300,
+        "usuario": {
+            "id": 1,
+            "nickname": "Yunan",
+            "nombreCompleto": "Yunan Six",
+            "correo": "ysix@gmail.com",
+            "fechaNacimiento": new Date("1980-09-12"),
+            "pais": "chile",
+            "moderador": {
+                "direccion": "Las torres 456",
+                "rut": "10388475-0",
+                "numCuenta": 749,
+                "tipoCuenta": "Corriente",
+                "nombreBanco": "Falabella",
+                "tipoModerador": "Super Moderador"
+            }
+        },
+        "servidor": {
+            "nombre": "Servidor1",
+            "ubicacion": "Chile"
+        }
+    },
+    {
+        "tipo": "cancion",
+        "tituloCancion": "Die for you",
+        "generoCancion": "R&B",
+        "reproducciones": 19999,
+        "usuario": {
+            "id": 2,
+            "nickname": "Toxic",
+            "nombreCompleto": "Juan Dias",
+            "correo": "jdias@gmail.com",
+            "fechaNacimiento": new Date("1990-09-12"),
+            "pais": "brasil"
+        },
+        "servidor": {
+            "nombre": "Servidor2",
+            "ubicacion": "Brasil"
+        }
+    },
+    {
+        "tipo": "cancion",
+        "tituloCancion": "Cold heart",
+        "generoCancion": "Pop",
+        "reproducciones": 21000,
+        "usuario": {
+            "id": 3,
+            "nickname": "Nightmare",
+            "nombreCompleto": "Nelson Duran",
+            "correo": "nduran@gmail.com",
+            "fechaNacimiento": new Date("1992-10-12"),
+            "pais": "brasil",
+            "moderador": {
+                "direccion": "Copacabana 312",
+                "rut": "10212375-0",
+                "numCuenta": 459,
+                "tipoCuenta": "Corriente",
+                "nombreBanco": "Banco Brasil",
+                "tipoModerador": "Super Moderador"
+            }
+        },
+        "servidor": {
+            "nombre": "Servidor2",
+            "ubicacion": "Brasil"
+        }
+    },
+    {
+        "tipo": "cancion",
+        "tituloCancion": "Shy",
+        "generoCancion": "Metal",
+        "reproducciones": 31400,
+        "usuario": {
+            "id": 3,
+            "nickname": "Nightmare",
+            "nombreCompleto": "Nelson Duran",
+            "correo": "nduran@gmail.com",
+            "fechaNacimiento": new Date("1992-10-12"),
+            "pais": "brasil",
+            "moderador": {
+                "direccion": "Copacabana 312",
+                "rut": "10212375-0",
+                "numCuenta": 459,
+                "tipoCuenta": "Corriente",
+                "nombreBanco": "Banco Brasil",
+                "tipoModerador": "Super Moderador"
+            }
+        },
+        "servidor": {
+            "nombre": "Servidor2",
+            "ubicacion": "Brasil"
+        }
+    },
+    {
+        "tipo": "cancion",
+        "tituloCancion": "Moon",
+        "generoCancion": "Rock",
+        "reproducciones": 12310,
+        "usuario": {
+            "id": 4,
+            "nickname": "Ithnan",
+            "nombreCompleto": "Julio Cesar",
+            "correo": "jcesar@gmail.com",
+            "fechaNacimiento": new Date("1995-04-12"),
+            "pais": "chile"
+        },
+        "servidor": {
+            "nombre": "Servidor1",
+            "ubicacion": "Chile"
+        }
+    },
+    {
+        "tipo": "cancion",
+        "tituloCancion": "Lighting Granades",
+        "generoCancion": "Rock",
+        "reproducciones": 15000,
+        "usuario": {
+            "id": 5,
+            "nickname": "Sylas",
+            "nombreCompleto": "Pedro Pascal",
+            "correo": "ppascal@gmail.com",
+            "fechaNacimiento": new Date("1993-03-10"),
+            "pais": "chile"
+        },
+        "servidor": {
+            "nombre": "Servidor1",
+            "ubicacion": "Chile"
+        }
+    },
+    {
+        "tipo": "cancion",
+        "tituloCancion": "Aqua",
+        "generoCancion": "Pop",
+        "reproducciones": 11230,
+        "usuario": {
+            "id": 6,
+            "nickname": "Molix",
+            "nombreCompleto": "Ignacia Iturra",
+            "correo": "iiturra@gmail.com",
+            "fechaNacimiento": new Date("1997-05-07"),
+            "pais": "chile"
+        },
+        "servidor": {
+            "nombre": "Servidor1",
+            "ubicacion": "Chile"
+        }
+    },
+    {
+        "tipo": "cancion",
+        "tituloCancion": "Curse",
+        "generoCancion": "Rock",
+        "reproducciones": 13456,
+        "usuario": {
+            "id": 7,
+            "nickname": "Sephiro",
+            "nombreCompleto": "Italia Soui",
+            "correo": "isoui@gmail.com",
+            "fechaNacimiento": new Date("1980-12-12"),
+            "pais": "brasil"
+        },
+        "servidor": {
+            "nombre": "Servidor2",
+            "ubicacion": "Brasil"
+        }
+    },
+    {
+        "tipo": "cancion",
+        "tituloCancion": "Amnecia",
+        "generoCancion": "Rock",
+        "reproducciones": 56756,
+        "usuario": {
+            "id": 8,
+            "nickname": "Anya",
+            "nombreCompleto": "Ana de Armas",
+            "correo": "aarmas@gmail.com",
+            "fechaNacimiento": new Date("1992-04-18"),
+            "pais": "brasil"
+        },
+        "servidor": {
+            "nombre": "Servidor2",
+            "ubicacion": "Brasil"
+        }
+    },
+    {
+        "tipo": "video",
+        "nombre_video": "tutorial Pastel Choclo",
+        "fecha_publicacion": new Date("2022-01-01"),
+        "visibilidad": "publico",
+        "restriccion_edad": "todo publico",
+        "genero_video": "cocina",
+        "me_gusta": 10000,
+        "no_me_gusta": 100,
+        "visitas": 100000,
+        "usuario": {
+            "id": 1,
+            "nickname": "Yunan",
+            "nombreCompleto": "Yunan Six",
+            "correo": "ysix@gmail.com",
+            "fechaNacimiento": new Date("1980-09-12"),
+            "pais": "chile",
+            "moderador": {
+                "direccion": "Las torres 456",
+                "rut": "10388475-0",
+                "numCuenta": 749,
+                "tipoCuenta": "Corriente",
+                "nombreBanco": "Falabella",
+                "tipoModerador": "Super Moderador"
+            }
+        },
+        "servidor": {
+            "nombre": "Servidor1",
+            "ubicacion": "Chile"
+        }
+    },
+    {
+        "tipo": "video",
+        "nombre_video": "Destapar Baño",
+        "fecha_publicacion": new Date("2022-12-01"),
+        "visibilidad": "publico",
+        "restriccion_edad": "todo publico",
+        "genero_video": "tutorial",
+        "me_gusta": 10242,
+        "no_me_gusta": 130,
+        "visitas": 101230,
+        "usuario": {
+            "id": 3,
+            "nickname": "Nightmare",
+            "nombreCompleto": "Nelson Duran",
+            "correo": "nduran@gmail.com",
+            "fechaNacimiento": new Date("1992-10-12"),
+            "pais": "brasil",
+            "moderador": {
+                "direccion": "Copacabana 312",
+                "rut": "10212375-0",
+                "numCuenta": 459,
+                "tipoCuenta": "Corriente",
+                "nombreBanco": "Banco Brasil",
+                "tipoModerador": "Super Moderador"
+            }
+        },
+        "servidor": {
+            "nombre": "Servidor2",
+            "ubicacion": "Brasil"
+        }
+    },
+    {
+        "tipo": "video",
+        "nombre_video": "Carrera autos",
+        "fecha_publicacion": new Date("2018-07-04"),
+        "visibilidad": "publico",
+        "restriccion_edad": "todo publico",
+        "genero_video": "entretencion",
+        "me_gusta": 10312,
+        "no_me_gusta": 132,
+        "visitas": 100456,
+        "usuario": {
+            "id": 10,
+            "nickname": "Hendrix",
+            "nombreCompleto": "Jonas Sanchez",
+            "correo": "jsanchez@gmail.com",
+            "fechaNacimiento": new Date("1990-11-01"),
+            "pais": "chile"
+        },
+        "servidor": {
+            "nombre": "Servidor1",
+            "ubicacion": "Chile"
+        }
+    },
+    {
+        "tipo": "video",
+        "nombre_video": "Playa Copacabana",
+        "fecha_publicacion": new Date("2017-06-01"),
+        "visibilidad": "publico",
+        "restriccion_edad": "todo publico",
+        "genero_video": "turismo",
+        "me_gusta": 16788,
+        "no_me_gusta": 189,
+        "visitas": 231231,
+        "usuario": {
+            "id": 11,
+            "nickname": "Things",
+            "nombreCompleto": "Cloud Tian",
+            "correo": "ctian@gmail.com",
+            "fechaNacimiento": new Date("1985-07-12"),
+            "pais": "brasil"
+        },
+        "servidor": {
+            "nombre": "Servidor2",
+            "ubicacion": "Brasil"
+        }
+    },
+    {
+        "tipo": "video",
+        "nombre_video": "El universo",
+        "fecha_publicacion": new Date("2021-08-12"),
+        "visibilidad": "publico",
+        "restriccion_edad": "todo publico",
+        "genero_video": "ciencia",
+        "me_gusta": 76543,
+        "no_me_gusta": 1765,
+        "visitas": 789345,
+        "usuario": {
+            "id": 12,
+            "nickname": "Orion",
+            "nombreCompleto": "Javier Tux",
+            "correo": "jtux@gmail.com",
+            "fechaNacimiento": new Date("1987-01-13"),
+            "pais": "chile"
+        },
+        "servidor": {
+            "nombre": "Servidor1",
+            "ubicacion": "Chile"
+        }
+    },
+    {
+        "tipo": "video",
+        "nombre_video": "Tamaño de las Estrellas",
+        "fecha_publicacion": new Date("2020-12-01"),
+        "visibilidad": "publico",
+        "restriccion_edad": "todo publico",
+        "genero_video": "ciencia",
+        "me_gusta": 67980,
+        "no_me_gusta": 456,
+        "visitas": 678000,
+        "usuario": {
+            "id": 13,
+            "nickname": "Death",
+            "nombreCompleto": "Dylan Nine",
+            "correo": "dnine@gmail.com",
+            "fechaNacimiento": new Date("1999-09-12"),
+            "pais": "chile"
+        },
+        "servidor": {
+            "nombre": "Servidor1",
+            "ubicacion": "Chile"
+        }
+    },
+    {
+        "tipo": "video",
+        "nombre_video": "Choques auto",
+        "fecha_publicacion": new Date("2012-01-01"),
+        "visibilidad": "publico",
+        "restriccion_edad": "todo publico",
+        "genero_video": "accidente",
+        "me_gusta": 10230,
+        "no_me_gusta": 999,
+        "visitas": 998000,
+        "usuario": {
+            "id": 14,
+            "nickname": "Jackson",
+            "nombreCompleto": "Tomy lee",
+            "correo": "tlee@gmail.com",
+            "fechaNacimiento": new Date("1983-06-12"),
+            "pais": "chile"
+        },
+        "servidor": {
+            "nombre": "Servidor1",
+            "ubicacion": "Chile"
+        }
+    },
+    {
+        "tipo": "video",
+        "nombre_video": "tutorial pastel de papas",
+        "fecha_publicacion": new Date("2021-04-11"),
+        "visibilidad": "publico",
+        "restriccion_edad": "todo publico",
+        "genero_video": "cocina",
+        "me_gusta": 10560,
+        "no_me_gusta": 178,
+        "visitas": 456789,
+        "usuario": {
+            "id": 15,
+            "nickname": "sanji",
+            "nombreCompleto": "Jaime Oliver",
+            "correo": "joliver@gmail.com",
+            "fechaNacimiento": new Date("1998-12-11"),
+            "pais": "chile"
+        },
+        "servidor": {
+            "nombre": "Servidor1",
+            "ubicacion": "Chile"
+        }
+    },
+    {
+        "tipo": "video",
+        "nombre_video": "Metales Preciosos",
+        "fecha_publicacion": new Date("2016-05-01"),
+        "visibilidad": "publico",
+        "restriccion_edad": "todo publico",
+        "genero_video": "ciencia",
+        "me_gusta": 10123,
+        "no_me_gusta": 456,
+        "visitas": 999752,
+        "usuario": {
+            "id": 16,
+            "nickname": "Onix",
+            "nombreCompleto": "Silver Surfer",
+            "correo": "ssurfer@gmail.com",
+            "fechaNacimiento": new Date("1990-09-12"),
+            "pais": "chile"
+        },
+        "servidor": {
+            "nombre": "Servidor1",
+            "ubicacion": "Chile"
+        }
+    },
+    {
+        "tipo": "video",
+        "nombre_video": "Diseño y moda",
+        "fecha_publicacion": new Date("2021-07-07"),
+        "visibilidad": "publico",
+        "restriccion_edad": "todo publico",
+        "genero_video": "moda",
+        "me_gusta": 67823,
+        "no_me_gusta": 768,
+        "visitas": 456789,
+        "usuario": {
+            "id": 17,
+            "nickname": "Saphiro",
+            "nombreCompleto": "Ruby Crimson",
+            "correo": "rcrimson@gmail.com",
+            "fechaNacimiento": new Date("1998-09-12"),
+            "pais": "chile"
+        },
+        "servidor": {
+            "nombre": "Servidor1",
+            "ubicacion": "Chile"
+        }
+    }
+]

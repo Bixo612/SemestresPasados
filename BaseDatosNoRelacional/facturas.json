@@ -1,0 +1,483 @@
+[
+    {
+        "nroFactura": 1,
+        "fechaFactura": new Date("2022,03,02"),
+        "receptorFactura": {
+            "rut": "78789789-K",
+            "nombre": "Almacen el grifo",
+            "direccion": "Isla guafo #1312 - Puente Alto",
+            "giro": "Venta de abarrotes"
+        },
+        "vendedor": {
+            "codVendedor": 1,
+            "nombreVendedor": "Alan Soto"
+        },
+        "productos": [
+            {
+                "numeroPreducto": 1,
+                "descripcion": "Litro de aceite",
+                "cantidad": 2,
+                "valorNeto": 2000,
+                "iva": 380,
+                "totalProducto": 2380
+            },
+            {
+                "numeroPreducto": 2,
+                "descripcion": "Paquete de vienesas de pavo",
+                "cantidad": 3,
+                "valorNeto": 1000,
+                "iva": 190,
+                "totalProducto": 1190
+            }
+        ],
+        "totalNeto": 3000,
+        "iva": 570,
+        "valorTotal": 3570,
+        "comentarios": ""
+    },
+    {
+        "nroFactura": 2,
+        "fechaFactura": new Date("2022,03,02"),
+        "receptorFactura": {
+            "rut": "78546456-K",
+            "nombre": "Almacen mis tesoros",
+            "direccion": "Las carmelias #456",
+            "giro": "Venta de abarrotes"
+        },
+        "vendedor": {
+            "codVendedor": 2,
+            "nombreVendedor": "Felipe Jara"
+        },
+        "productos": [
+            {
+                "numeroPreducto": 3,
+                "descripcion": "Caja de huevos 12 und",
+                "cantidad": 5,
+                "valorNeto": 15000,
+                "iva": 2850,
+                "totalProducto": 17850
+            },
+            {
+                "numeroPreducto": 2,
+                "descripcion": "Paquete de vienesas de pavo",
+                "cantidad": 6,
+                "valorNeto": 2000,
+                "iva": 380,
+                "totalProducto": 2380
+            }
+        ],
+        "totalNeto": 17000,
+        "iva": 3230,
+        "valorTotal": 20230,
+        "comentarios": ""
+    },
+    {
+        "nroFactura": 3,
+        "fechaFactura": new Date("2022,03,03"),
+        "receptorFactura": {
+            "rut": "78963021-K",
+            "nombre": "Bazar Las estrellas",
+            "direccion": "Caupolican #1991 - Macul",
+            "giro": "Venta de articulos de oficina"
+        },
+        "vendedor": {
+            "codVendedor": 2,
+            "nombreVendedor": "Felipe Jara"
+        },
+        "productos": [
+            {
+                "numeroPreducto": 6,
+                "descripcion": "Pliegos de cartulina de colores",
+                "cantidad": 100,
+                "valorNeto": 5000,
+                "iva": 950,
+                "totalProducto": 5950
+            },
+            {
+                "numeroPreducto": 7,
+                "descripcion": "Pliegos de papel craft",
+                "cantidad": 50,
+                "valorNeto": 15000,
+                "iva": 2850,
+                "totalProducto": 17850
+            }
+        ],
+        "totalNeto": 6750,
+        "iva": 1282,
+        "valorTotal": 7852,
+        "comentarios": ""
+    },
+    {
+        "nroFactura": 4,
+        "fechaFactura": new Date("2022,03,04"),
+        "receptorFactura": {
+            "rut": "79125001-K",
+            "nombre": "Bazar Colo Colo",
+            "direccion": "Eterno #7565 - San Bernarndo",
+            "giro": "Venta de articulos de oficina"
+        },
+        "vendedor": {
+            "codVendedor": 1,
+            "nombreVendedor": "Alan Soto"
+        },
+        "productos": [
+            {
+                "numeroPreducto": 4,
+                "descripcion": "Cuadernos 100 hjs universitario",
+                "cantidad": 7,
+                "valorNeto": 5250,
+                "iva": 997,
+                "totalProducto": 3377
+            },
+            {
+                "numeroPreducto": 5,
+                "descripcion": "Cuadernos 100 hjs caligrafia",
+                "cantidad": 5,
+                "valorNeto": 1500,
+                "iva": 285,
+                "totalProducto": 1785
+            }
+        ],
+        "totalNeto": 6750,
+        "iva": 1282,
+        "valorTotal": 7852,
+        "comentarios": ""
+    },
+    {
+        "nroFactura": 5,
+        "fechaFactura": new Date("2022,03,05"),
+        "receptorFactura": {
+            "rut": "74156040-K",
+            "nombre": "Almacen Donde la Lilly",
+            "direccion": "Anres bello #7805 - San Bernarndo",
+            "giro": "Venta de abarrotes"
+        },
+        "vendedor": {
+            "codVendedor": 3,
+            "nombreVendedor": "Arturo Contreras"
+        },
+        "productos": [
+            {
+                "numeroPreducto": 8,
+                "descripcion": "Jugo kappo piña",
+                "cantidad": 10,
+                "valorNeto": 2500,
+                "iva": 475,
+                "totalProducto": 2975
+            },
+            {
+                "numeroPreducto": 9,
+                "descripcion": "Jugo kappo manzana",
+                "cantidad": 10,
+                "valorNeto": 2500,
+                "iva": 475,
+                "totalProducto": 2975
+            }
+        ],
+        "totalNeto": 5000,
+        "iva": 950,
+        "valorTotal": 5950,
+        "comentarios": ""
+    },
+    {
+        "nroFactura": 6,
+        "fechaFactura": new Date("2022,03,06"),
+        "receptorFactura": {
+            "rut": "78789789-K",
+            "nombre": "Almacen el grifo",
+            "direccion": "Isla guafo #1312 - Puente Alto",
+            "giro": "Venta de abarrotes"
+        },
+        "vendedor": {
+            "codVendedor": 3,
+            "nombreVendedor": "Arturo Contreras"
+        },
+        "productos": [
+            {
+                "numeroPreducto": 8,
+                "descripcion": "Jugo kappo piña",
+                "cantidad": 10,
+                "valorNeto": 2500,
+                "iva": 475,
+                "totalProducto": 2975
+            },
+            {
+                "numeroPreducto": 9,
+                "descripcion": "Jugo kappo manzana",
+                "cantidad": 10,
+                "valorNeto": 2500,
+                "iva": 475,
+                "totalProducto": 2975
+            },
+            {
+                "numeroPreducto": 10,
+                "descripcion": "Jugo kappo frambuesa",
+                "cantidad": 10,
+                "valorNeto": 2500,
+                "iva": 475,
+                "totalProducto": 2975
+            }
+        ],
+        "totalNeto": 7500,
+        "iva": 1425,
+        "valorTotal": 8925,
+        "comentarios": ""
+    },
+    {
+        "nroFactura": 7,
+        "fechaFactura": new Date("2022,03,06"),
+        "receptorFactura": {
+            "rut": "78546456-K",
+            "nombre": "Almacen mis tesoros",
+            "direccion": "Las carmelias #456",
+            "giro": "Venta de abarrotes"
+        },
+        "vendedor": {
+            "codVendedor": 2,
+            "nombreVendedor": "Felipe Jara"
+        },
+        "productos": [
+            {
+                "numeroPreducto": 11,
+                "descripcion": "Chcolito",
+                "cantidad": 10,
+                "valorNeto": 3000,
+                "iva": 570,
+                "totalProducto": 3570
+            },
+            {
+                "numeroPreducto": 12,
+                "descripcion": "Piña doble",
+                "cantidad": 10,
+                "valorNeto": 2000,
+                "iva": 380,
+                "totalProducto": 2380
+            },
+            {
+                "numeroPreducto": 13,
+                "descripcion": "Centella",
+                "cantidad": 10,
+                "valorNeto": 2000,
+                "iva": 380,
+                "totalProducto": 2380
+            }
+        ],
+        "totalNeto": 7000,
+        "iva": 1330,
+        "valorTotal": 8330,
+        "comentarios": ""
+    },
+    {
+        "nroFactura": 8,
+        "fechaFactura": new Date("2022,03,06"),
+        "receptorFactura": {
+            "rut": "79125001-K",
+            "nombre": "Bazar Colo Colo",
+            "direccion": "Eterno #7565 - San Bernarndo",
+            "giro": "Venta de articulos de oficina"
+        },
+        "vendedor": {
+            "codVendedor": 1,
+            "nombreVendedor": "Alan Soto"
+        },
+        "productos": [
+            {
+                "numeroPreducto": 14,
+                "descripcion": "Lapices Bic azul",
+                "cantidad": 200,
+                "valorNeto": 12000,
+                "iva": 2280,
+                "totalProducto": 15080
+            },
+            {
+                "numeroPreducto": 5,
+                "descripcion": "Cuadernos 100 hjs caligrafia",
+                "cantidad": 10,
+                "valorNeto": 3000,
+                "iva": 570,
+                "totalProducto": 3570
+            },
+            {
+                "numeroPreducto": 6,
+                "descripcion": "Pliegos de cartulina de colores",
+                "cantidad": 50,
+                "valorNeto": 2500,
+                "iva": 475,
+                "totalProducto": 2975
+            }
+        ],
+        "totalNeto": 17500,
+        "iva": 3325,
+        "valorTotal": 20825,
+        "comentarios": ""
+    },
+    {
+        "nroFactura": 9,
+        "fechaFactura": new Date("2022,03,07"),
+        "receptorFactura": {
+            "rut": "78963021-K",
+            "nombre": "Bazar Las estrellas",
+            "direccion": "Caupolican #1991 - Macul",
+            "giro": "Venta de articulos de oficina"
+        },
+        "vendedor": {
+            "codVendedor": 3,
+            "nombreVendedor": "Arturo Contreras"
+        },
+        "productos": [
+            {
+                "numeroPreducto": 15,
+                "descripcion": "Cola fria",
+                "cantidad": 12,
+                "valorNeto": 4200,
+                "iva": 798,
+                "totalProducto": 4998 
+            },
+            {
+                "numeroPreducto": 16,
+                "descripcion": "Pliegos de papel craft",
+                "cantidad": 12,
+                "valorNeto": 3120,
+                "iva": 593,
+                "totalProducto": 3713
+            }
+        ],
+        "totalNeto": 7320,
+        "iva": 1391,
+        "valorTotal": 8711,
+        "comentarios": ""
+    },
+    {
+        "nroFactura": 10,
+        "fechaFactura": new Date("2022,03,07"),
+        "receptorFactura": {
+            "rut": "75005123-K",
+            "nombre": "Bazar Las Galaxias",
+            "direccion": "Caupolican #753 - Macul",
+            "giro": "Venta de articulos de oficina"
+        },
+        "vendedor": {
+            "codVendedor": 3,
+            "nombreVendedor": "Arturo Contreras"
+        },
+        "productos": [
+            {
+                "numeroPreducto": 17,
+                "descripcion": "Cuadernos College 80 hjs",
+                "cantidad": 15,
+                "valorNeto": 10500,
+                "iva": 1995,
+                "totalProducto": 12495 
+            },
+            {
+                "numeroPreducto": 18,
+                "descripcion": "Carpeta Plastificada",
+                "cantidad": 7,
+                "valorNeto": 5600,
+                "iva": 1064,
+                "totalProducto": 6664
+            },
+            {
+                "numeroPreducto": 6,
+                "descripcion": "Pliegos de cartulina de colores",
+                "cantidad": 100,
+                "valorNeto": 5000,
+                "iva": 950,
+                "totalProducto": 5950
+            }
+        ],
+        "totalNeto": 21100,
+        "iva": 4009,
+        "valorTotal": 25109,
+        "comentarios": ""
+    },
+    {
+        "nroFactura": 11,
+        "fechaFactura": new Date("2022,03,02"),
+        "receptorFactura": {
+            "rut": "78025333-K",
+            "nombre": "Almacen Inmortales",
+            "direccion": "Isla adelaida #5986 - La Cisterna",
+            "giro": "Venta de abarrotes"
+        },
+        "vendedor": {
+            "codVendedor": 1,
+            "nombreVendedor": "Alan Soto"
+        },
+        "productos": [
+            {
+                "numeroPreducto": 19,
+                "descripcion": "Bebida Coca-Cola 1lt",
+                "cantidad": 5,
+                "valorNeto": 4950,
+                "iva": 950,
+                "totalProducto": 5900
+            },
+            {
+                "numeroPreducto": 20,
+                "descripcion": "Bebida Sprite 1lt",
+                "cantidad": 3,
+                "valorNeto": 2970,
+                "iva": 564,
+                "totalProducto": 3534
+            }
+        ],
+        "totalNeto": 7920,
+        "iva": 1505,
+        "valorTotal": 9452,
+        "comentarios": ""
+    },
+    {
+        "nroFactura": 12,
+        "fechaFactura": new Date("2022,03,09"),
+        "receptorFactura": {
+            "rut": "75005123-K",
+            "nombre": "Bazar Las Galaxias",
+            "direccion": "Caupolican #753 - Macul",
+            "giro": "Venta de articulos de oficina"
+        },
+        "vendedor": {
+            "codVendedor": 1,
+            "nombreVendedor": "Alan Soto"
+        },
+        "productos": [
+            {
+                "numeroPreducto": 17,
+                "descripcion": "Cuadernos College 80 hjs",
+                "cantidad": 15,
+                "valorNeto": 10500,
+                "iva": 1995,
+                "totalProducto": 12495 
+            },
+            {
+                "numeroPreducto": 18,
+                "descripcion": "Carpeta Plastificada",
+                "cantidad": 7,
+                "valorNeto": 5600,
+                "iva": 1064,
+                "totalProducto": 6664
+            },
+            {
+                "numeroPreducto": 6,
+                "descripcion": "Pliegos de cartulina de colores",
+                "cantidad": 100,
+                "valorNeto": 5000,
+                "iva": 950,
+                "totalProducto": 5950
+            },
+            {
+                "numeroPreducto": 15,
+                "descripcion": "Cola fria",
+                "cantidad": 12,
+                "valorNeto": 4200,
+                "iva": 798,
+                "totalProducto": 4998 
+            }
+        ],
+        "totalNeto": 25300,
+        "iva": 4807,
+        "valorTotal": 31007,
+        "comentarios": ""
+    }
+
+]

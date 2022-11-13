@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let numero = prompt("Ingrese un numero");
+        if(parseInt(numero)==0)
+            document.write("Es Neutro <br>");
+        else if(parseInt(numero)>0)  
+            document.write("Es positivo <br>");
+        else
+            document.write("Es negativo <br>");
+        //Ejemplo de un switch case
+        let opcion = prompt("Ingrese una opcion entre 1 y 3");
+        switch(parseInt(opcion)){
+            case 1: document.write("Usted selecciono 1")
+                break;
+            case 2: document.write("Usted selecciono 2")
+                break;
+            case 3: document.write("Usted selecciono 3")
+                break;
+            default: document.write("Debe seleccionar una opcion entre uno y tres");
+        }
+    </script>
+</body>
+</html>

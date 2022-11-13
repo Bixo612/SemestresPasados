@@ -1,0 +1,7 @@
+body{
+    background-color: orange;
+}
+
+li:hover{
+    background-color:orange
+}

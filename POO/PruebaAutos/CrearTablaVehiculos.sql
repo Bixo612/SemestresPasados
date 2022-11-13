@@ -1,0 +1,1 @@
+CREATE TABLE `concesionario`.`vehiculos` ( `patente` VARCHAR(6) NOT NULL , `marca` VARCHAR(50) NOT NULL , `modelo` VARCHAR(50) NOT NULL , `anio` INT NOT NULL , PRIMARY KEY (`patente`)) ENGINE = MyISAM;
