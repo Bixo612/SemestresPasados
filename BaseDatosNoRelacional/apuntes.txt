@@ -1,0 +1,263 @@
+show dbs = muestra las bases de datos
+use db_ventas = ingresa en la base de datos a utilizar
+db.createCollection("boletas")
+
+db.boletas.insertMany() = dentro de los parentesis agregar datos
+
+MongoDB> db.Personas.insertMany([])
+MongoDB> db.Regiones.insertMany([])
+
+
+MongoDB> db.Regiones.find({nombre: "Los Rios"})
+MongoDB> db.Regiones.find({nombre: "Los Rios"})
+
+busquedas:
+
+MongoDB> db.Regiones.find({idRegion : {$gt : 10}} = busca regiones mayor a 10
+MongoDB> db.Regiones.find({idRegion : {$lt : 10}} = busca regiones menor a 10
+MongoDB> db.Regiones.find({idRegion : {$lt: 10}, poblacion: {$gt: 1000000}}) busca regiones menores a 10 y con poblacion mayor a 1 millon
+
+actualización:
+
+MongoDB> db.Regiones.find({idRegion:1}
+MongoDB> db.Regiones.updateOne({idRegion:1}, {$set: {nombre:"Tarapacá"}}) (nuevo nombre)
+MongoDB> db.Regiones.updateMany({idRegion:1}, {$set: {nombre:"Tarapacá", poblacion: 3000000}}) (nuevo nombre)
+
+Borrar:
+
+MongoDB> db.Regiones.deleteMany({}) = borra todo
+MongoDB> db.Regiones.deleteOne() = borra la primera coincidencia
+
+
+cuando necesitamos realizar búsquedas:
+
+Operación: Igualdad
+Sintaxis:  {<clave>:<valor>} 
+Ejemplo: db.regiones.find({idRegion:50})
+
+Operación: Menor que 
+Sintaxis: {<clave>:{$lt: <valor>}}
+Ejemplo: db.regiones.find({idRegion:{$lt:50}})
+
+Operación: Menor o igual que
+Sintaxis: {<clave>:{$lte: <valor>}}
+Ejemplo: db.regiones.find({idRegion:{$lte:50}})
+
+Operación: Mayor que
+Sintaxis: {<clave>:{$gt: <valor>}}
+Ejemplo: db.regiones.find({idRegion:{$gt:50}})
+ 
+Operación: Mayor o igual que
+Sintaxis: {<clave>:{$gte: <valor>}}
+Ejemplo: db.regiones.find({idRegion:{$gte:50}})
+
+Operación: Distinto (not equal)
+Sintaxis: {<clave>:{$ne: <valor>}}
+Ejemplo: db.regiones.find({idRegion:{$ne:50}}) 
+
+
+AND:
+En el método Find si se pasan varias variables 
+separándolas por coma se considera un and, como
+en el siguiente ejemplo:
+
+db.regiones.find({idRegion:16, poblacion: 514508})
+Sin embargo, también se puede realizar una condiciona and de la siguiente forma:
+db.regiones.find({$and:[{idRegion:16}, {poblacion: 514508}]})
+  
+OR:
+En el find para poder realizar una búsqueda con OR se debe hacer prácticamente 
+similar al ejemplo anterior, en este caso el siguiente código indica que se busca 
+los resultados que tengan como idRegion 16 o que su población sea menor a 300.000
+
+db.regiones.find({$or:[{idRegion:16}, {poblacion: {$lt:300000}}]})
+
+limit
+sort
+pretty
+count
+
+
+
+$regex
+
+Por ejemplo, la siguiente expresión regular nos realizaría una búsqueda de todos los documentos
+que tengan una dirección que termine con un 7:
+
+db.personas.find(
+		  {
+		  direccion: {
+			      $regex: /7$/
+			      }
+		  })
+
+Por el contrario, si se quitara el $ como en la siguiente consulta me arrojaría todos los documentos
+que tengan 7 en dirección, sin importar en que lugar del texto se encuentre:
+
+db.personas.find(
+		 {
+		 direccion: {
+			     $regex: /7/
+			     }
+		 })
+
+
+Finalmente, si se ingresa un ^ al comienzo de la expresión se estará diciendo que el elemento debe
+coincidir al comienzo del texto, en el siguiente ejemplo se buscaran todas las direcciones que
+comiencen con una letra M:
+db.personas.find({
+		direccion: {
+			$regex: /^M/
+			}
+		})
+
+
+$where
+La cláusula $where sirve para poder realizar consultas complejas por medio de una expresión o
+función javascript, una de las ventajas que tiene utilizar funciones javascript es que permite tener
+mayor flexibilidad para realizar las consultas, la desventaja proviene en que debe ser procesada la
+expresión o función en cada documento en la base de datos y por lo tanto es más lento que utilizar
+los elementos nativos de MongoDB, un ejemplo del uso de where se puede ver en la siguiente
+consulta, en ella se utiliza una función y el método hex_md5 de javascript:
+
+db.personas.find({
+			$where:
+				function(){
+					return (hex_md5(this.comuna) ==
+				"5fdbd33f4f444eabc9240729a8f74725");
+				}
+		})
+
+La consulta anterior arrojaría como resultado una comuna cuyo nombre al ser convertida en md5
+coincida con el hash de comparación, en este caso la consulta mostraría los documentos cuya
+comuna sea “Ñuñoa”.
+Se puede ampliar la complejidad de la consulta agregando elementos en este caso la consulta
+arrojaría los resultados las personas que cumplan con la condiciona de vivir en la comuna de
+“Ñuñoa” y al mismo tiempo que su rut sea “14.048.959-2”:
+
+db.personas.find({
+			$where:
+				function(){
+			return (hex_md5(this.comuna) ==
+			"5fdbd33f4f444eabc9240729a8f74725";)
+			},
+			rut:"14.048.959-2"
+		})
+
+Al poder utilizar expresiones javascript también podemos realizar una consulta compleja,
+básicamente cualquier consulta que se pueda realizar por medio de expresiones en javascript, por
+ejemplo, en la siguiente consulta se buscan los documentos cuya comuna sea “Ñuñoa” y el rut sea
+“14.048.959-2” o de lo contrario que la comuna sea “Macul”:
+
+db.personas.find(
+			{$where:
+			"this.comuna == 'Ñuñoa' && this.rut == '14.048.959-2' ||
+			this.comuna == 'Macul'"
+		})
+
+$eq
+La cláusula $eq representa la igualdad, en el siguiente ejemplo se muestra una búsqueda de rut
+por medio de eq:
+
+db.personas.find(
+		{rut:
+			{$eq: "12.937.506-7"}
+		})
+
+$not
+La cláusula $not invierte los resultados de una búsqueda, en ese sentido lo que hace es negar la
+búsqueda (no es), por lo que cuando se utiliza retorna todos los resultados que no coincidieron
+con la búsqueda, por ejemplo, en la siguiente consulta se buscan a los documentos que no tengan
+como comuna a Ñuñoa:
+
+db.personas.find(
+		{comuna:
+			{$not:
+				{$eq:"Ñuñoa"}
+			}
+		})
+
+$nor
+La cláusula $not realiza una operación lógica NOR en un cursor de expresiones de consulta,
+seleccionando los documentos que fallan en la consulta del cursor, en otras palabras, $nor
+devolverá todas las consultas cuyas condiciones por cualquier motivo no coincidan con lo indicado
+en el cursor de búsqueda, 
+
+por ejemplo, para que una consulta nos devuelva todos los resultados
+que no sean de la comuna de “Ñuñoa” y que no contengan un 7 en la dirección deberíamos
+realizar lo siguiente:
+
+db.personas.find(
+		{$nor: [
+			{comuna: "Ñuñoa"},
+			{direccion: {$regex: /7/}}
+			]
+		})
+
+itcount()
+El método iscount() sirve para indicar la cantidad de resultados que posee una búsqueda find, solo
+arroja el numero de resultados y no los resultados en si, por ejemplo:
+
+db.personas.find(
+		{$where:
+			"this.comuna == 'Ñuñoa' && this.rut == '14.048.959-2' ||
+		this.comuna == 'Macul'"
+		}).itcount()
+
+sort()
+El método sort() sirve para ordenar los resultados de una consulta, si no se establece algún elemento
+entre los paréntesis se considerará que debe ser ordenado mediante el orden natural, en este caso
+normalmente eso es definido por el _id, sin embargo, podemos realizar el ordenamiento por el
+campo que estimemos conveniente, por ejemplo, la fecha de nacimiento, así como se muestra en
+el siguiente comando:
+
+db.personas.find(
+		{$where:
+			"this.comuna == 'Ñuñoa' && this.rut == '14.048.959-2' ||
+		this.comuna == 'Macul'"
+			}).sort("fechaNacimiento")
+
+La consulta anterior mostrará los resultados obtenidos ordenados por la fecha de nacimiento de
+menor a mayor, si quisiéramos invertir los resultados de la consulta hay que indicarlo con un -1, esto
+puede ser realizado por texto o por campo-valor, como se muestra en los siguientes ejemplos:
+
+Sort por campo-valor
+
+db.personas.find(
+		{$where:
+			"this.comuna == 'Ñuñoa' && this.rut == '14.048.959-2' ||
+		this.comuna == 'Macul'"
+		}).sort({fechaNacimiento: -1})
+
+Sort por texto
+
+db.personas.find(
+		{$where:
+			"this.comuna == 'Ñuñoa' && this.rut == '14.048.959-2' ||
+		this.comuna == 'Macul'"
+		}).sort("fechaNacimiento -1")
+
+
+db.personas.find({nombre:{$regex:/^R/}})    ---> busqueda de la primera letra del campo nombre con la letra R
+
+db.personas.find({nombre:{$regex:/o$/}})    ---> busqueda de la ultima letra del campo nombre con la letra o
+
+db.personas.find({nombre:{$regex:/^J|o$/}}) ---> busqueda de la primera letra del campo nombre con la letra J ó que busque la ultima letra del campo nombre con la letra o
+
+db.personas.find({nombre:{$regex:/o/}})     ---> busqueda de la letra "o" en el campo nombre y que este en cualquier parte del string
+
+db.personas.find({nombre:{$regex:/^J|o$/}}) ---> el simbolo | significa ó
+
+db.personas.find({comuna: {$regex:/La|la/}})
+---> ambas sentencias hacen lo mismo (buscar una comuna que contenga "La" o "la" en alguna parte de su string del campo comuna)
+
+db.personas.find({$or:[{comuna:{$regex:/La/}},{comuna:{$regex:/la/}}]})
+
+db.personas.find({$where:"this.comuna == 'La Florida'"})    ---> buscar comuna donde el campo sea "La florida"
+
+db.personas.find({$where:"this.comuna == 'La Florida' && this.correoElectronico == 'mmiranda@xmail.com'"})  
+---> buscar comuna donde el campo sea "La florida" y donde el campo correo sea 'mmiranda@xmail.com'
+
+db.personas.find({$where:"this.comuna == 'La Florida' && this.correoElectronico == 'mmiranda@xmail.com' || this.comuna == 'Puente Alto'"})  
+---> buscar comuna donde el campo sea "La florida" y donde el campo correo sea 'mmiranda@xmail.com' ó buscar comuna donde el campo sea "Puente Alto"
+
